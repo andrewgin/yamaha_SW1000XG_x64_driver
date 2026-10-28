@@ -1,0 +1,233 @@
+; ysw1000xg.inf - Yamaha SW1000XG, Windows 10/11 x64 (universal / DCH style).
+;
+; Clean-room re-implementation.
+;
+; This INF has NOT been validated with infverif/apphostregistrationverifier on a
+; WDK host (no WDK on the dev machine). Run those before trusting it. The
+; [*.Interfaces] section registers KS endpoints that only appear once the
+; matching subdevices are registered at runtime (M4/M6/M7); it is harmless before
+; then and the device still starts and binds (the M0 gate).
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = MEDIA
+ClassGuid   = {4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider    = %ProviderName%
+CatalogFile = ysw1000xg.cat
+DriverVer   = 01/01/2026,2.0.0.0
+PnpLockdown = 1
+
+[Manufacturer]
+%MfgName% = Standard,NTamd64.10.0...16299   ; DIRID 13 (driver store) needs 1709+
+
+[Standard.NTamd64.10.0...16299]
+%DeviceDesc% = SW1000XG, PCI\VEN_1073&DEV_1000
+
+[DestinationDirs]
+DefaultDestDir = 13            ; driver store (DCH)
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+ysw1000xg.sys = 1,,
+
+; ---- install ----------------------------------------------------------------
+
+[SW1000XG.NT]
+Include   = ks.inf, wdmaudio.inf
+Needs     = KS.Registration, WDMAUDIO.Registration
+CopyFiles = SW1000XG.CopyFiles
+
+[SW1000XG.CopyFiles]
+ysw1000xg.sys
+
+[SW1000XG.NT.Services]
+AddService = ysw1000xg, 0x00000002, SW1000XG.ServiceInstall
+
+[SW1000XG.ServiceInstall]
+DisplayName   = %ServiceDesc%
+ServiceType   = 1              ; SERVICE_KERNEL_DRIVER
+StartType     = 3             ; SERVICE_DEMAND_START
+ErrorControl  = 1             ; SERVICE_ERROR_NORMAL
+ServiceBinary = %13%\ysw1000xg.sys
+
+; ---- KS interfaces (reference strings = runtime subdevice names, re/02) ------
+; One section per endpoint so each filter gets its own FriendlyName.
+
+[SW1000XG.NT.Interfaces]
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_Topology%, SW1000.If.Topology
+AddInterface = %KSCATEGORY_TOPOLOGY%, %KSNAME_Topology%, SW1000.If.Topology
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveOut1%, SW1000.If.WaveOut1
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_WaveOut1%, SW1000.If.WaveOut1
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveOut2%, SW1000.If.WaveOut2
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_WaveOut2%, SW1000.If.WaveOut2
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveOut3%, SW1000.If.WaveOut3
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_WaveOut3%, SW1000.If.WaveOut3
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveOut4%, SW1000.If.WaveOut4
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_WaveOut4%, SW1000.If.WaveOut4
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveOut5%, SW1000.If.WaveOut5
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_WaveOut5%, SW1000.If.WaveOut5
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveOut6%, SW1000.If.WaveOut6
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_WaveOut6%, SW1000.If.WaveOut6
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveIn1%, SW1000.If.WaveIn1
+AddInterface = %KSCATEGORY_CAPTURE%, %KSNAME_WaveIn1%, SW1000.If.WaveIn1
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_WaveIn2%, SW1000.If.WaveIn2
+AddInterface = %KSCATEGORY_CAPTURE%, %KSNAME_WaveIn2%, SW1000.If.WaveIn2
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_SWXG1%, SW1000.If.SWXG1
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_SWXG1%, SW1000.If.SWXG1
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_SWXG2%, SW1000.If.SWXG2
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_SWXG2%, SW1000.If.SWXG2
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_SWXG3%, SW1000.If.SWXG3
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_SWXG3%, SW1000.If.SWXG3
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_MidiOut%, SW1000.If.MidiOut
+AddInterface = %KSCATEGORY_RENDER%, %KSNAME_MidiOut%, SW1000.If.MidiOut
+
+AddInterface = %KSCATEGORY_AUDIO%, %KSNAME_MidiIn%, SW1000.If.MidiIn
+AddInterface = %KSCATEGORY_CAPTURE%, %KSNAME_MidiIn%, SW1000.If.MidiIn
+
+[SW1000.If.Topology]
+AddReg = SW1000.If.Topology.AddReg
+[SW1000.If.Topology.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%Topology.FriendlyName%
+
+[SW1000.If.WaveOut1]
+AddReg = SW1000.If.WaveOut1.AddReg
+[SW1000.If.WaveOut1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveOut1.FriendlyName%
+
+[SW1000.If.WaveOut2]
+AddReg = SW1000.If.WaveOut2.AddReg
+[SW1000.If.WaveOut2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveOut2.FriendlyName%
+
+[SW1000.If.WaveOut3]
+AddReg = SW1000.If.WaveOut3.AddReg
+[SW1000.If.WaveOut3.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveOut3.FriendlyName%
+
+[SW1000.If.WaveOut4]
+AddReg = SW1000.If.WaveOut4.AddReg
+[SW1000.If.WaveOut4.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveOut4.FriendlyName%
+
+[SW1000.If.WaveOut5]
+AddReg = SW1000.If.WaveOut5.AddReg
+[SW1000.If.WaveOut5.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveOut5.FriendlyName%
+
+[SW1000.If.WaveOut6]
+AddReg = SW1000.If.WaveOut6.AddReg
+[SW1000.If.WaveOut6.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveOut6.FriendlyName%
+
+[SW1000.If.WaveIn1]
+AddReg = SW1000.If.WaveIn1.AddReg
+[SW1000.If.WaveIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveIn1.FriendlyName%
+
+[SW1000.If.WaveIn2]
+AddReg = SW1000.If.WaveIn2.AddReg
+[SW1000.If.WaveIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%WaveIn2.FriendlyName%
+
+[SW1000.If.SWXG1]
+AddReg = SW1000.If.SWXG1.AddReg
+[SW1000.If.SWXG1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%SWXG1.FriendlyName%
+
+[SW1000.If.SWXG2]
+AddReg = SW1000.If.SWXG2.AddReg
+[SW1000.If.SWXG2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%SWXG2.FriendlyName%
+
+[SW1000.If.SWXG3]
+AddReg = SW1000.If.SWXG3.AddReg
+[SW1000.If.SWXG3.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%SWXG3.FriendlyName%
+
+[SW1000.If.MidiOut]
+AddReg = SW1000.If.MidiOut.AddReg
+[SW1000.If.MidiOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%MidiOut.FriendlyName%
+
+[SW1000.If.MidiIn]
+AddReg = SW1000.If.MidiIn.AddReg
+[SW1000.If.MidiIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%MidiIn.FriendlyName%
+
+; ---- strings ----------------------------------------------------------------
+
+[Strings]
+ProviderName = "SW1000XG community port"
+MfgName      = "Yamaha"
+DeviceDesc   = "Yamaha SW1000XG (x64)"
+ServiceDesc  = "Yamaha SW1000XG Audio Driver"
+DiskName     = "Yamaha SW1000XG Installation Disk"
+
+; Per-endpoint names: WinMM MIDI port names come from these, so they
+; match the original driver's names for project compatibility.
+Topology.FriendlyName = "SW1000XG Mixer"
+WaveOut1.FriendlyName = "SW1000 #1 WAVE OUT"
+WaveOut2.FriendlyName = "SW1000 #2 WAVE OUT"
+WaveOut3.FriendlyName = "SW1000 #3 WAVE OUT"
+WaveOut4.FriendlyName = "SW1000 #4 WAVE OUT"
+WaveOut5.FriendlyName = "SW1000 #5 WAVE OUT"
+WaveOut6.FriendlyName = "SW1000 #6 WAVE OUT"
+WaveIn1.FriendlyName  = "SW1000 #1 WAVE IN"
+WaveIn2.FriendlyName  = "SW1000 #2 WAVE IN"
+SWXG1.FriendlyName    = "SW1000 #1 Synthesizer"
+SWXG2.FriendlyName    = "SW1000 #2 Synthesizer"
+SWXG3.FriendlyName    = "SW1000 #3 Synthesizer"
+MidiOut.FriendlyName  = "SW1000  MIDI OUT"
+MidiIn.FriendlyName   = "SW1000  MIDI IN"
+
+Proxy.CLSID = "{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+
+; KS category GUIDs
+KSCATEGORY_AUDIO    = "{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER   = "{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE  = "{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_TOPOLOGY = "{DDA54A40-1E4C-11D1-A050-405705C10000}"
+
+; Reference strings - must match the PcRegisterSubdevice names in re/02.
+KSNAME_Topology = "Topology"
+KSNAME_WaveOut1 = "WAVEOUT1"
+KSNAME_WaveOut2 = "WAVEOUT2"
+KSNAME_WaveOut3 = "WAVEOUT3"
+KSNAME_WaveOut4 = "WAVEOUT4"
+KSNAME_WaveOut5 = "WAVEOUT5"
+KSNAME_WaveOut6 = "WAVEOUT6"
+KSNAME_WaveIn1  = "WAVEIN1"
+KSNAME_WaveIn2  = "WAVEIN2"
+KSNAME_SWXG1    = "SWXG1"
+KSNAME_SWXG2    = "SWXG2"
+KSNAME_SWXG3    = "SWXG3"
+KSNAME_MidiOut  = "MIDIOUT"
+KSNAME_MidiIn   = "MIDIIN"

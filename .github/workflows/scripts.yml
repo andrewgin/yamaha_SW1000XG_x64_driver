@@ -1,0 +1,75 @@
+# Check the install/test scripts and the microcode manifest.
+#
+# No Yamaha bytes are involved: every script is syntax-checked,
+# tools/check_manifest.py compares the manifest's three copies, and
+# port/install/Test-InstallMicrocode.ps1 runs the installer against a synthetic
+# yswds.sys. On Windows it also exercises the registry write under a throwaway
+# service key (hosted runners are elevated). The scripts that need a built
+# driver package are smoke-tested in build.yml.
+
+name: Scripts
+
+on:
+  push:
+    paths:
+      - 'port/install/**'
+      - 'port/src/blobs.cpp'
+      - 'port/inc/sw1000_blobs.h'
+      - 'tools/blobs_sw1000.csv'
+      - 'tools/check_manifest.py'
+      - 'tools/extract_blobs.py'
+      - '.github/scripts/**'
+      - '.github/workflows/scripts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scripts-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  manifest:
+    name: manifest + installer (pwsh, Linux)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Scripts parse
+        shell: pwsh
+        run: |
+          $bad = 0
+          foreach ($f in Get-ChildItem port/install, .github/scripts -Filter *.ps1) {
+            $errors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($f.FullName, [ref]$null, [ref]$errors) | Out-Null
+            foreach ($e in $errors) { Write-Host "::error file=$($f.FullName),line=$($e.Extent.StartLineNumber)::$($e.Message)"; $bad++ }
+            if ((Get-Content -Raw $f.FullName) -match '[^\x00-\x7F]') { Write-Host "::error file=$($f.FullName)::non-ASCII (Windows PowerShell 5.1 misreads it)"; $bad++ }
+          }
+          foreach ($f in Get-ChildItem port/install -Filter *.psd1) {
+            try { Import-PowerShellDataFile $f.FullName | Out-Null } catch { Write-Host "::error file=$($f.FullName)::$($_.Exception.Message)"; $bad++ }
+            if ((Get-Content -Raw $f.FullName) -match '[^\x00-\x7F]') { Write-Host "::error file=$($f.FullName)::non-ASCII"; $bad++ }
+          }
+          if ($bad) { exit 1 }
+
+      - name: Manifest copies agree
+        run: python3 -I tools/check_manifest.py
+
+      - name: Installer tests
+        shell: pwsh
+        run: ./port/install/Test-InstallMicrocode.ps1
+
+  windows:
+    name: installer + registry (${{ matrix.shell }})
+    runs-on: windows-2025
+    strategy:
+      fail-fast: false
+      matrix:
+        shell: [powershell, pwsh]   # Windows PowerShell 5.1 (what users have) and 7
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Installer tests
+        run: ${{ matrix.shell }} -NoProfile -ExecutionPolicy Bypass -File port\install\Test-InstallMicrocode.ps1 -Registry

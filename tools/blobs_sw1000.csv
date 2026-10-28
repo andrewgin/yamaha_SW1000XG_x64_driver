@@ -1,0 +1,35 @@
+name,va,length,sha256,role
+bcr1MEL,0x12dbc,0x500,eacd0e4ae466af86b2316468a65b97b996ceb82e72e860e8af32444f3e9a2e73,MPR set 0 slot 0 (bcr) SW1000 variant
+deqc1,0x128bc,0x500,a6ba15477df0bc1e048fcd98a20ec317b46a42e94dd53a1a817030a6d21fe155,MPR set 0 slot 1 (deqc)
+deqm1,0x123bc,0x500,3a2ed94c344a45929bd2659f6d8255e10ee0a5c17eeae9a0ba918554303d84c5,MPR set 0 slot 2 (deqm)
+dspc1,0x11c3c,0x500,16f0a76986df8cb603dfd49dc06e86b1b3e2a38ff81ec1100bdb08c5a7eb765e,MPR set 0 slot 3 (dspc)
+dspa1,0x1213c,0x280,3ec51ca6eb8d806c7b75cb2f94f5d36666ef865636d562ab4a1cd78710b483f9,MPR set 0 slot 4 (dspa)
+dspm1_0,0x1123c,0x500,631a277a63955afaba31bdf4c35278990fb7149391e933bf1b970213f29a3343,MPR set 0 slot 5 (dspm first half)
+dspm1_1,0x1173c,0x500,0fcedfa8a1c106744df036557398eeb6d64d6d85aace837808a0207d676eef54,MPR set 0 slot 6 (dspm second half)
+n1mod0,0x137bc,0x100,a071c84600d87be9153a6b800050d86d2877f768b9dbb9823fef4902f233fd8f,MPR set 0 slot 7 (mod)
+n1creg0CMEL,0x13acc,0x18,7143ac1dab4981acf06c3889b17d064691dacd229b4acfc64ebf39ce58565ac2,MPR set 0 slot 8 (creg) SW1000 variant
+n1fgtim0,0x13a04,0x80,98a4c64a9b450ca9079dfe72650227573009ee23d205d8421eed90d7a1aec89b,MPR set 0 slot 9 (fgtim)
+n1fguram0,0x13904,0x100,5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1,MPR set 0 slot 10 (fguram)
+n1creg0MEL,0x13a84,0x18,a9f43fa50b3192ccf184639cb47de95f6b4eb6800ce1aabb1fc3206f7fad3cf6,SendCESCR block (selector 0x800)
+n1greg0,0x13ae4,0x20,558a2825bee764e76bc1870ebf1dab535fb8b565df26802f8afc42c45e196ca6,greg table for DSP port 0 (SendGlobal)
+n1greg1,0x15e60,0x20,12b0ff10ef899ea80cac5cb747817fd6fa4200e9f6a9d381d96a4914d88339e9,greg table for DSP port 1 (initGreg)
+n1greg2,0x181dc,0x20,12b0ff10ef899ea80cac5cb747817fd6fa4200e9f6a9d381d96a4914d88339e9,greg table for DSP port 2 (initGreg)
+n1greg3,0x1a558,0x20,12b0ff10ef899ea80cac5cb747817fd6fa4200e9f6a9d381d96a4914d88339e9,greg table for DSP port 3 (initGreg)
+n1greg4,0x1c8d4,0x20,12b0ff10ef899ea80cac5cb747817fd6fa4200e9f6a9d381d96a4914d88339e9,greg table for DSP port 4 (initGreg)
+prerec_306f0,0x306f0,0x2c,85759b3811ff7dc47b03792ac85317be51431a3f9e01dcafce317ed736a391b0,SetPreRecMode 11-word block (selectors 0x500/0x600/0x300 at 0x4d)
+prerec_226a0,0x226a0,0x2c,4b27d441db7331b18a68a7bc3882b8203fafbb88751a7bb7c0044bed544a4f0e,SetPreRecMode 11-word block (selector 0x500 at 0x4d)
+prerec_226cc,0x226cc,0x2c,3d37a5f445e7d0037f1cc653b76b15b7efe14b1a6ba7aa1f2ae4b1ac229bdda4,SetPreRecMode 11-word block (selector 0x600 at 0x4d)
+prerec_226f8,0x226f8,0x2c,2971ee05c37908c1e9115ae10a636af807a8d7666d36cad5e6d8e21e8ba979d2,SetPreRecMode 11-word block (selector 0x300 at 0x4d)
+prerec_22724,0x22724,0x10,3d0a787e15111027c66760ca16ee55036b5e5a13ff10ec0875d588e995e94667,SetPreRecMode 4-word block (selector 0x500 at 0x90)
+prerec_22734,0x22734,0x10,ffe3f061c5912afd2b7bc99f3879b78bfed14cdddb89534a86d42ffeb16d4083,SetPreRecMode 4-word block (selector 0x500 at 0x90)
+playmode_dspc_234d0,0x234d0,0x10,2666f1a90cde51c85bf501d41f0199709097f77f41e30aafed429fbbd76a2933,SetPlayMode 4-word dspc block (non stereo-32)
+playmode_dspc_234e0,0x234e0,0x10,40231e534bdaef895ee99d550626875339acdbd2b0be38bea389c865a2f87788,SetPlayMode 4-word dspc block (stereo-32)
+recmode_dspc_234f0,0x234f0,0xc,9126cc43e40fdd9f0ac1aaca87dfa559cdd3a8f8fab39884356593890e2ef662,SetRecMode 3-word dspc block
+recmode_dspc_234fc,0x234fc,0xc,58f6982fed1846182d4218ce27d734e9adad0abe236b7bd7dee9e031d878d283,SetRecMode 3-word dspc block (alternate)
+playmode_addr_23508,0x23508,0x8,9cc1f4c8cadb62105549134249d4b9d82fc63fbad4d844a7af78fb0b826901f9,SetPlayMode per-pair dspc address bytes
+playmode_addr_23510,0x23510,0x8,3e673b26d432ec0fec20d7a9c61ad9d36e22df26e5eb7ae3d534e7b6489fae54,SetPlayMode per-pair dspc address bytes
+playmode_addr_23518,0x23518,0x8,f4e10ade4808f99dac7318f14b54f44fa929e4cc733c09b11689a0e2adc1f5c1,SetPlayMode per-pair dspa address bytes
+recmode_addr_23520,0x23520,0x4,9af0754e59d25340c505ae76b3db7d852d791ffbc5d8d574365aa00dbbc394b5,SetRecMode per-pair address bytes
+recmode_addr_23524,0x23524,0x4,6c984eb4e413b3807efeebb5fd2ed29184557bd1aa9d5651302cb5dec67b0635,SetRecMode per-pair address bytes
+recmode_addr_23528,0x23528,0x4,6eb945bba3b5cd96e9a2f5b37defc373aee0756593c5fde0b22f07ebc90633d3,SetRecMode per-pair address bytes
+recmode_addr_2352c,0x2352c,0x4,91d0acdd9440ee2e69531a266ca95ba8d415ff4f5a6f5a72c097df6cafcec89a,SetRecMode per-pair address bytes

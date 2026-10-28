@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ysw1000xg.vcxproj - Yamaha SW1000XG x64 PortCls (WDM) driver.
+
+  Builds in CI (GitHub Actions, WDK from NuGet via Directory.Build.props) and in
+  Visual Studio with either the NuGet WDK or an installed WDK. Signing is off by
+  default; enable test signing locally with /p:SignMode=TestSign.
+-->
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B74DA9CA-38A4-4771-90A9-F58A79168786}</ProjectGuid>
+    <RootNamespace>ysw1000xg</RootNamespace>
+    <TargetName>ysw1000xg</TargetName>
+    <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+    <Platform Condition="'$(Platform)' == ''">x64</Platform>
+  </PropertyGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+
+  <PropertyGroup Label="Configuration">
+    <TargetVersion>Windows10</TargetVersion>
+    <DriverTargetPlatform>Windows Driver</DriverTargetPlatform>
+    <DriverType>WDM</DriverType>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <ConfigurationType>Driver</ConfigurationType>
+    <SignMode Condition="'$(SignMode)' == ''">Off</SignMode>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+
+  <PropertyGroup>
+    <OutDir>$(MSBuildProjectDirectory)\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(MSBuildProjectDirectory)\obj\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(DDK_INC_PATH);$(MSBuildProjectDirectory)\inc</AdditionalIncludeDirectories>
+      <!-- _NEW_DELETE_OPERATORS_: the driver supplies new/delete (src/newdelete.cpp), so
+           stdunk.h omits its deprecated ExAllocatePoolWithTag versions. -->
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_WIN32;UNICODE;_UNICODE;PC_IMPLEMENTATION;_NEW_DELETE_OPERATORS_</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies);$(DDK_LIB_PATH)\portcls.lib;$(DDK_LIB_PATH)\stdunk.lib;$(DDK_LIB_PATH)\libcntpr.lib;$(DDK_LIB_PATH)\cng.lib</AdditionalDependencies>
+    </Link>
+    <DriverSign>
+      <FileDigestAlgorithm>sha256</FileDigestAlgorithm>
+    </DriverSign>
+  </ItemDefinitionGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\adapter.cpp" />
+    <ClCompile Include="src\blobs.cpp" />
+    <ClCompile Include="src\diag.cpp" />
+    <ClCompile Include="src\driver.cpp" />
+    <ClCompile Include="src\hw_dsp_init.cpp" />
+    <ClCompile Include="src\hw_hostport.cpp" />
+    <ClCompile Include="src\hw_regs.cpp" />
+    <ClCompile Include="src\hw_uart.cpp" />
+    <ClCompile Include="src\midi.cpp" />
+    <ClCompile Include="src\miditx.cpp" />
+    <ClCompile Include="src\newdelete.cpp" />
+    <ClCompile Include="src\selftest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\adapter.h" />
+    <ClInclude Include="inc\common.h" />
+    <ClInclude Include="inc\diag.h" />
+    <ClInclude Include="inc\midi.h" />
+    <ClInclude Include="inc\newdelete.h" />
+    <ClInclude Include="inc\selftest.h" />
+    <ClInclude Include="inc\sw1000_blobs.h" />
+    <ClInclude Include="inc\sw1000_dsp.h" />
+    <ClInclude Include="inc\sw1000_hw.h" />
+    <ClInclude Include="inc\sw1000_miditx.h" />
+    <ClInclude Include="inc\sw1000_regs.h" />
+    <ClInclude Include="inc\sw1000_uart.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="inf\ysw1000xg.inf" />
+  </ItemGroup>
+  <ItemGroup>
+    <FilesToPackage Include="$(TargetPath)" />
+  </ItemGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -66,3 +66,29 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Yamaha originals and derived artifacts: never commit (copyrighted)
+*.sys
+*.zip
+*.bin
+extracted/
+
+# Ghidra projects
+*.gpr
+*.rep/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Driver build (MSBuild/WDK): NuGet packages, outputs, logs, VS state
+port/packages/
+port/bin/
+port/obj/
+_logs/
+*.binlog
+*.user
+.vs/
+
+# CI-generated build identity (diag.cpp falls back to "local build")
+port/inc/buildid.h

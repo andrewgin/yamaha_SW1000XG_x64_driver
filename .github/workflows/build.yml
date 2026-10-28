@@ -1,0 +1,155 @@
+# Build the SW1000XG x64 driver with MSVC + the WDK from NuGet.
+#
+# No Yamaha bytes are involved: the DSP microcode is read from the registry at
+# run time (port/BUILD.md), so the build only needs this repo's own sources.
+#
+# Release builds are test-signed and packaged with the install/test scripts as
+# the hardware test package (artifact hw-test-package; port/TESTING.md). Pushing
+# a tag hw-test-NN publishes that package as a GitHub pre-release for the tester.
+
+name: Build driver
+
+# Every branch push builds; a same-repo PR shows the checks of its head commit's
+# push run, so there is no separate pull_request trigger (it would build twice).
+# Path filters do not apply to tag pushes, so every hw-test-* tag builds.
+on:
+  push:
+    branches: ['**']
+    tags: ['hw-test-*']
+    paths:
+      - 'port/**'
+      - '.github/workflows/build.yml'
+      - '.github/msvc-problem-matcher.json'
+      - '.github/scripts/**'
+      - '!**.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: build ${{ matrix.configuration }} x64
+    runs-on: windows-2025-vs2026
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Debug, Release]
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Restore WDK/SDK NuGet packages
+        run: nuget restore port\packages.config -PackagesDirectory port\packages
+
+      - name: Locate MSBuild
+        id: msbuild
+        shell: pwsh
+        run: |
+          $vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+          $msb = & $vswhere -latest -prerelease -products * -requires Microsoft.Component.MSBuild `
+                   -find 'MSBuild\**\Bin\amd64\MSBuild.exe' | Select-Object -First 1
+          if (-not $msb) { throw "MSBuild not found" }
+          Write-Host "MSBuild: $msb"
+          "path=$msb" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+      - name: Enable MSVC error annotations
+        run: echo "::add-matcher::.github/msvc-problem-matcher.json"
+
+      - name: Stamp build identity
+        shell: pwsh
+        run: |
+          # Logged by the driver (diag.cpp) and named in every test report.
+          $ref = $env:GITHUB_REF_NAME -replace '[^A-Za-z0-9._/-]', '_'
+          $id = "$ref@$($env:GITHUB_SHA.Substring(0, 7)) run $env:GITHUB_RUN_NUMBER ${{ matrix.configuration }}"
+          "#define SW_BUILD_ID `"$id`"" | Set-Content port\inc\buildid.h -Encoding ascii
+          $label = if ($env:GITHUB_REF_TYPE -eq 'tag') { "SW1000XG-$ref" } else { "SW1000XG-$($ref -replace '/', '-')-run$env:GITHUB_RUN_NUMBER" }
+          "SW_BUILD_ID=$id" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          "SW_LABEL=$label" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+
+      - name: Build
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force _logs | Out-Null
+          & "${{ steps.msbuild.outputs.path }}" port\ysw1000xg.vcxproj `
+              /p:Configuration=${{ matrix.configuration }} /p:Platform=x64 `
+              /m /nologo /v:minimal `
+              "/bl:_logs\build.binlog" `
+              "/flp1:logfile=_logs\errors.log;errorsonly" `
+              "/flp2:logfile=_logs\warnings.log;warningsonly" `
+              "/flp3:logfile=_logs\build.log;verbosity=normal"
+          exit $LASTEXITCODE
+
+      - name: Show errors
+        if: failure()
+        shell: pwsh
+        run: |
+          if (Test-Path _logs\errors.log) {
+            Write-Host "===== errors ====="; Get-Content _logs\errors.log
+          }
+
+      - name: Upload build logs
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: logs-${{ matrix.configuration }}-x64
+          path: _logs
+          if-no-files-found: ignore
+
+      - name: Upload driver build output
+        if: success()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: ysw1000xg-${{ matrix.configuration }}-x64
+          path: port/bin/x64/${{ matrix.configuration }}/
+
+      - name: Test-sign and assemble the hardware test package
+        if: matrix.configuration == 'Release'
+        shell: pwsh
+        run: ./.github/scripts/New-TestPackage.ps1 -BinDir port\bin\x64\Release -OutDir _pkg -Label $env:SW_LABEL -BuildId $env:SW_BUILD_ID
+
+      - name: Smoke-test the package (Windows PowerShell 5.1)
+        if: matrix.configuration == 'Release'
+        shell: pwsh
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File .github\scripts\Test-TestPackage.ps1 -PackageDir "_pkg\$env:SW_LABEL"
+
+      - name: Upload hardware test package
+        if: matrix.configuration == 'Release'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: hw-test-package
+          path: _pkg/
+
+  release:
+    name: publish test release
+    if: github.ref_type == 'tag' && startsWith(github.ref_name, 'hw-test-')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Fetch the hardware test package
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: hw-test-package
+          path: pkg
+
+      - name: Publish pre-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          name="SW1000XG-${GITHUB_REF_NAME}"
+          (cd pkg && zip -qr "../${name}.zip" "${name}")
+          notes="Hardware test build for the Yamaha SW1000XG Windows 10/11 x64 driver (commit ${GITHUB_SHA:0:7}).
+
+          Download **${name}.zip** below and follow the GitHub issue that links to this release.
+          One-time PC setup and the test routine: [TESTING.md](https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_REF_NAME}/port/TESTING.md) (also inside the zip).
+
+          Test-signed: runs only on a PC in test mode."
+          gh release create "$GITHUB_REF_NAME" "${name}.zip" --repo "$GITHUB_REPOSITORY" \
+            --verify-tag --prerelease --title "Hardware test build ${GITHUB_REF_NAME}" --notes "$notes"

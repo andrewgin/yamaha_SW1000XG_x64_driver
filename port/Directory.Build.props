@@ -1,0 +1,17 @@
+<Project>
+  <!--
+    Wire the NuGet WDK/SDK (restored into port\packages by packages.config) into
+    MSBuild, the same way Microsoft's driver samples do. If the packages are not
+    restored, the conditions are false and an installed WDK is used instead.
+  -->
+  <PropertyGroup>
+    <SwWdkVersion>10.0.28000.2526</SwWdkVersion>
+    <SwPkgDir>$(MSBuildThisFileDirectory)packages\</SwPkgDir>
+  </PropertyGroup>
+  <Import Project="$(SwPkgDir)Microsoft.Windows.WDK.x64.$(SwWdkVersion)\build\native\Microsoft.Windows.WDK.x64.props"
+          Condition="Exists('$(SwPkgDir)Microsoft.Windows.WDK.x64.$(SwWdkVersion)\build\native\Microsoft.Windows.WDK.x64.props') and '$(Platform)' == 'x64'" />
+  <Import Project="$(SwPkgDir)Microsoft.Windows.SDK.CPP.x64.$(SwWdkVersion)\build\native\Microsoft.Windows.SDK.cpp.x64.props"
+          Condition="Exists('$(SwPkgDir)Microsoft.Windows.SDK.CPP.x64.$(SwWdkVersion)\build\native\Microsoft.Windows.SDK.cpp.x64.props') and '$(Platform)' == 'x64'" />
+  <Import Project="$(SwPkgDir)Microsoft.Windows.SDK.CPP.$(SwWdkVersion)\build\native\Microsoft.Windows.SDK.cpp.props"
+          Condition="Exists('$(SwPkgDir)Microsoft.Windows.SDK.CPP.$(SwWdkVersion)\build\native\Microsoft.Windows.SDK.cpp.props')" />
+</Project>

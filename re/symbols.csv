@@ -1,0 +1,820 @@
+va,name,kind,confidence,source,notes
+0x10418,KSPROPSETID_YMIXCONTROL,guid,confirmed,codeview,value {8B937D90-DF93-11D3-89E7-00C04F874986}; adapter.obj; _KSPROPSETID_YMIXCONTROL
+0x10428,KSPROPSETID_SWDSCONTROL,guid,confirmed,codeview,value {9E57F750-03E3-11D5-8B17-00C04F874986}; adapter.obj; _KSPROPSETID_SWDSCONTROL
+0x10438,KSPROPSETID_SWXGCONTROL,guid,confirmed,codeview,value {1E623081-D3C1-11D3-89DA-00C04F874986}; adapter.obj; _KSPROPSETID_SWXGCONTROL
+0x10448,IID_IMidiDevice,guid,confirmed,codeview,value {FF9DED90-B672-11D3-89AF-00C04F874986}; adapter.obj; _IID_IMidiDevice
+0x10458,IID_IPciUart,guid,confirmed,codeview,value {0D1578C0-A960-11D3-89A4-00C04F874986}; adapter.obj; _IID_IPciUart
+0x10468,IID_IAdapterCommon,guid,confirmed,codeview,value {005DCD80-A61D-11D3-9659-00E018A83C4C}; adapter.obj; _IID_IAdapterCommon
+0x10478,CLSID_PortWaveCyclic,guid,confirmed,codeview,value {B4C90A2A-5791-11D0-86F9-00A0C911B544}; adapter.obj; _CLSID_PortWaveCyclic
+0x10488,CLSID_PortTopology,guid,confirmed,codeview,value {B4C90A32-5791-11D0-86F9-00A0C911B544}; adapter.obj; _CLSID_PortTopology
+0x10498,CLSID_PortMidi,guid,confirmed,codeview,value {B4C90A43-5791-11D0-86F9-00A0C911B544}; adapter.obj; _CLSID_PortMidi
+0x104a8,IID_IPortEvents,guid,confirmed,codeview,value {A80F29C4-5498-11D2-95D9-00C04FB925D3}; adapter.obj; _IID_IPortEvents
+0x104b8,IID_IAdapterPowerManagment,guid,confirmed,codeview,value {793417D0-35FE-11D1-AD08-00A0C90AB1B0}; adapter.obj; _IID_IAdapterPowerManagment
+0x104c8,IID_IMiniportWaveCyclicStream,guid,confirmed,codeview,value {B4C90A28-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IMiniportWaveCyclicStream
+0x104d8,IID_IMiniportWaveCyclic,guid,confirmed,codeview,value {B4C90A27-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IMiniportWaveCyclic
+0x104e8,IID_IPortWaveCyclic,guid,confirmed,codeview,value {B4C90A26-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IPortWaveCyclic
+0x104f8,IID_IMiniportTopology,guid,confirmed,codeview,value {B4C90A31-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IMiniportTopology
+0x10508,IID_IMiniportMidiStream,guid,confirmed,codeview,value {B4C90A42-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IMiniportMidiStream
+0x10518,IID_IMiniportMidi,guid,confirmed,codeview,value {B4C90A41-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IMiniportMidi
+0x10528,IID_IPortMidi,guid,confirmed,codeview,value {B4C90A40-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IPortMidi
+0x10538,IID_IServiceSink,guid,confirmed,codeview,value {22C6AC64-851B-11D0-9A7F-00AA0038ACFE}; adapter.obj; _IID_IServiceSink
+0x10548,IID_IInterruptSync,guid,confirmed,codeview,value {22C6AC63-851B-11D0-9A7F-00AA0038ACFE}; adapter.obj; _IID_IInterruptSync
+0x10558,IID_IMiniport,guid,confirmed,codeview,value {B4C90A24-5791-11D0-86F9-00A0C911B544}; adapter.obj; _IID_IMiniport
+0x10568,IID_IUnknown,guid,confirmed,codeview,value {00000000-0000-0000-0000-C00000000046}; adapter.obj; _IID_IUnknown
+0x10578,str_MasterVolR,string,confirmed,codeview,"wide literal ""MasterVolR""; adapterDS2416.obj; ??_C@_1BG@GECM@?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AAV?$AAo?$AAl?$AAR?$AA?$AA@"
+0x10590,str_MasterVolL,string,confirmed,codeview,"wide literal ""MasterVolL""; adapterDS2416.obj; ??_C@_1BG@DJIE@?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AAV?$AAo?$AAl?$AAL?$AA?$AA@"
+0x105a8,CAdapterDS2416::vftable_for_CUnknown,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAdapterDS2416@@6BCUnknown@@@
+0x105b8,CAdapterDS2416::vftable_for_IAdapterPowerManagement,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAdapterDS2416@@6BIAdapterPowerManagement@@@
+0x105d0,CAdapterDS2416::vftable_for_IAdapterCommon,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAdapterDS2416@@6BIAdapterCommon@@@
+0x107b0,CAdapterCommon::vftable_for_CUnknown,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAdapterCommon@@6BCUnknown@@@
+0x107c0,CAdapterCommon::vftable_for_IAdapterPowerManagement,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAdapterCommon@@6BIAdapterPowerManagement@@@
+0x107d8,CAdapterCommon::vftable_for_IAdapterCommon,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAdapterCommon@@6BIAdapterCommon@@@
+0x109b8,CAsioSWDS::vftable,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAsioSWDS@@6B@
+0x109e4,CAsioBase::vftable,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAsioBase@@6B@
+0x10a10,CAsioChInfo::vftable,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAsioChInfo@@6B@
+0x10a20,CAsioChInfoBase::vftable,vtable,confirmed,codeview,adapterDS2416.obj; ??_7CAsioChInfoBase@@6B@
+0x10a30,XGMsg_MasterVolume,table,likely,analysis,"9-byte XG parameter change template, system 00 00 04 (§4)"
+0x10a3c,XGMsg_System05,table,likely,analysis,"9-byte XG template, system 00 00 05, sent with value 0 by SetMasterVolume (§4)"
+0x10a48,XGMsg_PartVolume,table,likely,analysis,"9-byte XG template, multi-part 10 pp 0B (§4)"
+0x10a54,XGMsg_PartPan,table,likely,analysis,"9-byte XG template, multi-part 10 pp 0E (§4)"
+0x10a60,XGMsg_PartParam35,table,likely,analysis,"9-byte XG template, multi-part 10 pp 35, used for mute (§4, U-009)"
+0x10a6c,PeakMeterSelectTable,table,likely,analysis,"{0xf,0x10},{0x15,0x16}: values written to BAR+0x3f094 by GetWidPeakIoCtrl (§4)"
+0x10acc,str_LINEIN_MONITORMUTE,string,confirmed,codeview,"wide literal ""LINEIN_MONITORMUTE""; AdapterSW1000.obj; ??_C@_1CG@NCKI@?$AAL?$AAI?$AAN?$AAE?$AAI?$AAN?$AA_?$AAM?$AAO?$AAN?$AAI?$AAT?$AAO?$AAR?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10af4,str_WAVEOUT6_MUTE,string,confirmed,codeview,"wide literal ""WAVEOUT6_MUTE""; AdapterSW1000.obj; ??_C@_1BM@MJGJ@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA6?$AA_?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10b10,str_WAVEOUT5_MUTE,string,confirmed,codeview,"wide literal ""WAVEOUT5_MUTE""; AdapterSW1000.obj; ??_C@_1BM@DKNP@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA5?$AA_?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10b2c,str_WAVEOUT4_MUTE,string,confirmed,codeview,"wide literal ""WAVEOUT4_MUTE""; AdapterSW1000.obj; ??_C@_1BM@GLLC@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA4?$AA_?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10b48,str_WAVEOUT3_MUTE,string,confirmed,codeview,"wide literal ""WAVEOUT3_MUTE""; AdapterSW1000.obj; ??_C@_1BM@NNLD@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA3?$AA_?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10b64,str_WAVEOUT2_MUTE,string,confirmed,codeview,"wide literal ""WAVEOUT2_MUTE""; AdapterSW1000.obj; ??_C@_1BM@IMNO@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA2?$AA_?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10b80,str_WAVEOUT1_MUTE,string,confirmed,codeview,"wide literal ""WAVEOUT1_MUTE""; AdapterSW1000.obj; ??_C@_1BM@HPGI@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA1?$AA_?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10b9c,str_LINEOUT_MUTE,string,confirmed,codeview,"wide literal ""LINEOUT_MUTE""; AdapterSW1000.obj; ??_C@_1BK@DLFN@?$AAL?$AAI?$AAN?$AAE?$AAO?$AAU?$AAT?$AA_?$AAM?$AAU?$AAT?$AAE?$AA?$AA@"
+0x10bb8,str_LINEIN2_VOLUME_R,string,confirmed,codeview,"wide literal ""LINEIN2_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CC@OADC@?$AAL?$AAI?$AAN?$AAE?$AAI?$AAN?$AA2?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10bdc,str_LINEIN2_VOLUME_L,string,confirmed,codeview,"wide literal ""LINEIN2_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CC@LNJK@?$AAL?$AAI?$AAN?$AAE?$AAI?$AAN?$AA2?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10c00,str_LINEIN1_VOLUME_R,string,confirmed,codeview,"wide literal ""LINEIN1_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CC@FAPG@?$AAL?$AAI?$AAN?$AAE?$AAI?$AAN?$AA1?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10c24,str_LINEIN1_VOLUME_L,string,confirmed,codeview,"wide literal ""LINEIN1_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CC@NFO@?$AAL?$AAI?$AAN?$AAE?$AAI?$AAN?$AA1?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10c48,str_LINEIN_MONITORVOLUME_R,string,confirmed,codeview,"wide literal ""LINEIN_MONITORVOLUME_R""; AdapterSW1000.obj; ??_C@_1CO@PDAK@?$AAL?$AAI?$AAN?$AAE?$AAI?$AAN?$AA_?$AAM?$AAO?$AAN?$AAI?$AAT?$AAO?$AAR?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE@"
+0x10c78,str_LINEIN_MONITORVOLUME_L,string,confirmed,codeview,"wide literal ""LINEIN_MONITORVOLUME_L""; AdapterSW1000.obj; ??_C@_1CO@KOKC@?$AAL?$AAI?$AAN?$AAE?$AAI?$AAN?$AA_?$AAM?$AAO?$AAN?$AAI?$AAT?$AAO?$AAR?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE@"
+0x10ca8,str_WAVEOUT6_VOLUME_R,string,confirmed,codeview,"wide literal ""WAVEOUT6_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CE@FIPC@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA6?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10ccc,str_WAVEOUT6_VOLUME_L,string,confirmed,codeview,"wide literal ""WAVEOUT6_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CE@FFK@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA6?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10cf0,str_WAVEOUT5_VOLUME_R,string,confirmed,codeview,"wide literal ""WAVEOUT5_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CE@OIDG@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA5?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10d14,str_WAVEOUT5_VOLUME_L,string,confirmed,codeview,"wide literal ""WAVEOUT5_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CE@LFJO@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA5?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10d38,str_WAVEOUT4_VOLUME_R,string,confirmed,codeview,"wide literal ""WAVEOUT4_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CE@HIHF@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA4?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10d5c,str_WAVEOUT4_VOLUME_L,string,confirmed,codeview,"wide literal ""WAVEOUT4_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CE@CFNN@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA4?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10d80,str_WAVEOUT3_VOLUME_R,string,confirmed,codeview,"wide literal ""WAVEOUT3_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CE@IJLO@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA3?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10da4,str_WAVEOUT3_VOLUME_L,string,confirmed,codeview,"wide literal ""WAVEOUT3_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CE@NEBG@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA3?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10dc8,str_WAVEOUT2_VOLUME_R,string,confirmed,codeview,"wide literal ""WAVEOUT2_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CE@BJPN@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA2?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10dec,str_WAVEOUT2_VOLUME_L,string,confirmed,codeview,"wide literal ""WAVEOUT2_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CE@EEFF@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA2?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10e10,str_WAVEOUT1_VOLUME_R,string,confirmed,codeview,"wide literal ""WAVEOUT1_VOLUME_R""; AdapterSW1000.obj; ??_C@_1CE@KJDJ@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA1?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAR?$AA?$AA@"
+0x10e34,str_WAVEOUT1_VOLUME_L,string,confirmed,codeview,"wide literal ""WAVEOUT1_VOLUME_L""; AdapterSW1000.obj; ??_C@_1CE@PEJB@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA1?$AA_?$AAV?$AAO?$AAL?$AAU?$AAM?$AAE?$AA_?$AAL?$AA?$AA@"
+0x10e58,str_LINEOUT_VOL_R,string,confirmed,codeview,"wide literal ""LINEOUT_VOL_R""; AdapterSW1000.obj; ??_C@_1BM@HMPD@?$AAL?$AAI?$AAN?$AAE?$AAO?$AAU?$AAT?$AA_?$AAV?$AAO?$AAL?$AA_?$AAR?$AA?$AA@"
+0x10e74,str_LINEOUT_VOL_L,string,confirmed,codeview,"wide literal ""LINEOUT_VOL_L""; AdapterSW1000.obj; ??_C@_1BM@CBFL@?$AAL?$AAI?$AAN?$AAE?$AAO?$AAU?$AAT?$AA_?$AAV?$AAO?$AAL?$AA_?$AAL?$AA?$AA@"
+0x10e90,CAdapterSW1000::vftable_for_CUnknown,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CAdapterSW1000@@6BCUnknown@@@
+0x10ea0,CAdapterSW1000::vftable_for_IAdapterPowerManagement,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CAdapterSW1000@@6BIAdapterPowerManagement@@@
+0x10eb8,CAdapterSW1000::vftable_for_IAdapterCommon,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CAdapterSW1000@@6BIAdapterCommon@@@
+0x11098,CAdapterSW1000::vftable_for_CPciUart,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CAdapterSW1000@@6BCPciUart@@@
+0x11114,CAdapterSW1000::vftable_for_IMidiDevice,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CAdapterSW1000@@6BIMidiDevice@@@
+0x11130,CPciUart::vftable,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CPciUart@@6B@
+0x111ac,CMidiIn::vftable,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CMidiIn@@6B@
+0x111c8,CMidiBase::vftable,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CMidiBase@@6B@
+0x111d4,"CQueueBase<uchar,0x400>::vftable",vtable,confirmed,codeview,AdapterSW1000.obj; ??_7?$CQueueBase@E$0EAA@@@6B@
+0x111d8,CMidiOut::vftable,vtable,confirmed,codeview,AdapterSW1000.obj; ??_7CMidiOut@@6B@
+0x111e8,"CQueueBase<uchar,0x2000>::vftable",vtable,confirmed,codeview,AdapterSW1000.obj; ??_7?$CQueueBase@E$0CAAA@@@6B@
+0x111ec,CDeviceInterfaces::vftable,vtable,confirmed,codeview,AsioBase.obj; ??_7CDeviceInterfaces@@6B@
+0x111f8,str__BaseNamedObjects_SWDS_ASIO_EVENT,string,confirmed,codeview,"wide literal ""\BaseNamedObjects\SWDS_ASIO_EVENT""; common.obj; ??_C@_1EE@BPDH@?$AA?2?$AAB?$AAa?$AAs?$AAe?$AAN?$AAa?$AAm?$AAe?$AAd?$AAO?$AAb?$AAj?$AAe?$AAc?$AAt?$AAs?$AA?2?$AAS?$AAW@"
+0x1123c,dspm1,blob,confirmed,codeview,dsp0.obj; ?dspm1@@3QAY0BEA@$$CBJA
+0x11c3c,dspc1,blob,confirmed,codeview,dsp0.obj; ?dspc1@@3QBJB
+0x1213c,dspa1,blob,confirmed,codeview,dsp0.obj; ?dspa1@@3QBJB
+0x123bc,deqm1,blob,confirmed,codeview,dsp0.obj; ?deqm1@@3QBJB
+0x128bc,deqc1,blob,confirmed,codeview,dsp0.obj; ?deqc1@@3QBJB
+0x12dbc,bcr1MEL,blob,confirmed,codeview,dsp0.obj; ?bcr1MEL@@3QBJB
+0x132bc,bcr1,blob,confirmed,codeview,dsp0.obj; ?bcr1@@3QBJB
+0x137bc,n1mod0,blob,confirmed,codeview,dsp0.obj; ?n1mod0@@3QBJB
+0x138bc,n1mod0KeyOnOff,global,confirmed,codeview,dsp0.obj; ?n1mod0KeyOnOff@@3JB
+0x138c0,n1mod0KeyOn,global,confirmed,codeview,dsp0.obj; ?n1mod0KeyOn@@3JB
+0x138c4,n1mod0WaveRam,blob,confirmed,codeview,dsp0.obj; ?n1mod0WaveRam@@3QBDB
+0x13904,n1fguram0,blob,confirmed,codeview,dsp0.obj; ?n1fguram0@@3QBJB
+0x13a04,n1fgtim0,blob,confirmed,codeview,dsp0.obj; ?n1fgtim0@@3QBJB
+0x13a84,n1creg0MEL,blob,confirmed,codeview,dsp0.obj; ?n1creg0MEL@@3QBJB
+0x13a9c,n1creg0,blob,confirmed,codeview,dsp0.obj; ?n1creg0@@3QBJB
+0x13ab4,n1creg0CMEL,blob,confirmed,codeview,dsp0.obj; ?n1creg0CMEL@@3QBJB
+0x13acc,n1creg0C,blob,confirmed,codeview,dsp0.obj; ?n1creg0C@@3QBJB
+0x13ae4,n1greg0,blob,confirmed,codeview,dsp0.obj; ?n1greg0@@3QBFB
+0x13b04,n1dspm1,blob,confirmed,codeview,dsp1.obj; ?n1dspm1@@3QAY0BEA@$$CBJA
+0x14504,n1dspc1,blob,confirmed,codeview,dsp1.obj; ?n1dspc1@@3QBJB
+0x14a04,n1dspa1,blob,confirmed,codeview,dsp1.obj; ?n1dspa1@@3QBJB
+0x14c84,n1deqm1,blob,confirmed,codeview,dsp1.obj; ?n1deqm1@@3QBJB
+0x15184,n1deqc1,blob,confirmed,codeview,dsp1.obj; ?n1deqc1@@3QBJB
+0x15684,n1bcr1,blob,confirmed,codeview,dsp1.obj; ?n1bcr1@@3QBJB
+0x15b84,n1mod1,blob,confirmed,codeview,dsp1.obj; ?n1mod1@@3QBJB
+0x15c84,n1mod1KeyOnOff,global,confirmed,codeview,dsp1.obj; ?n1mod1KeyOnOff@@3JB
+0x15c88,n1mod1WaveRam,blob,confirmed,codeview,dsp1.obj; ?n1mod1WaveRam@@3QBDB
+0x15cc8,n1fguram1,blob,confirmed,codeview,dsp1.obj; ?n1fguram1@@3QBJB
+0x15dc8,n1fgtim1,blob,confirmed,codeview,dsp1.obj; ?n1fgtim1@@3QBJB
+0x15e48,n1creg1,blob,confirmed,codeview,dsp1.obj; ?n1creg1@@3QBJB
+0x15e60,n1greg1,blob,confirmed,codeview,dsp1.obj; ?n1greg1@@3QBFB
+0x15e80,n1dspm2,blob,confirmed,codeview,dsp2.obj; ?n1dspm2@@3QAY0BEA@$$CBJA
+0x16880,n1dspc2,blob,confirmed,codeview,dsp2.obj; ?n1dspc2@@3QBJB
+0x16d80,n1dspa2,blob,confirmed,codeview,dsp2.obj; ?n1dspa2@@3QBJB
+0x17000,n1deqm2,blob,confirmed,codeview,dsp2.obj; ?n1deqm2@@3QBJB
+0x17500,n1deqc2,blob,confirmed,codeview,dsp2.obj; ?n1deqc2@@3QBJB
+0x17a00,n1bcr2,blob,confirmed,codeview,dsp2.obj; ?n1bcr2@@3QBJB
+0x17f00,n1mod2,blob,confirmed,codeview,dsp2.obj; ?n1mod2@@3QBJB
+0x18000,n1mod2KeyOnOff,global,confirmed,codeview,dsp2.obj; ?n1mod2KeyOnOff@@3JB
+0x18004,n1mod2WaveRam,blob,confirmed,codeview,dsp2.obj; ?n1mod2WaveRam@@3QBDB
+0x18044,n1fguram2,blob,confirmed,codeview,dsp2.obj; ?n1fguram2@@3QBJB
+0x18144,n1fgtim2,blob,confirmed,codeview,dsp2.obj; ?n1fgtim2@@3QBJB
+0x181c4,n1creg2,blob,confirmed,codeview,dsp2.obj; ?n1creg2@@3QBJB
+0x181dc,n1greg2,blob,confirmed,codeview,dsp2.obj; ?n1greg2@@3QBFB
+0x181fc,n1dspm3,blob,confirmed,codeview,dsp3.obj; ?n1dspm3@@3QAY0BEA@$$CBJA
+0x18bfc,n1dspc3,blob,confirmed,codeview,dsp3.obj; ?n1dspc3@@3QBJB
+0x190fc,n1dspa3,blob,confirmed,codeview,dsp3.obj; ?n1dspa3@@3QBJB
+0x1937c,n1deqm3,blob,confirmed,codeview,dsp3.obj; ?n1deqm3@@3QBJB
+0x1987c,n1deqc3,blob,confirmed,codeview,dsp3.obj; ?n1deqc3@@3QBJB
+0x19d7c,n1bcr3,blob,confirmed,codeview,dsp3.obj; ?n1bcr3@@3QBJB
+0x1a27c,n1mod3,blob,confirmed,codeview,dsp3.obj; ?n1mod3@@3QBJB
+0x1a37c,n1mod3KeyOnOff,global,confirmed,codeview,dsp3.obj; ?n1mod3KeyOnOff@@3JB
+0x1a380,n1mod3WaveRam,blob,confirmed,codeview,dsp3.obj; ?n1mod3WaveRam@@3QBDB
+0x1a3c0,n1fguram3,blob,confirmed,codeview,dsp3.obj; ?n1fguram3@@3QBJB
+0x1a4c0,n1fgtim3,blob,confirmed,codeview,dsp3.obj; ?n1fgtim3@@3QBJB
+0x1a540,n1creg3,blob,confirmed,codeview,dsp3.obj; ?n1creg3@@3QBJB
+0x1a558,n1greg3,blob,confirmed,codeview,dsp3.obj; ?n1greg3@@3QBFB
+0x1a578,n1dspm4,blob,confirmed,codeview,dsp4.obj; ?n1dspm4@@3QAY0BEA@$$CBJA
+0x1af78,n1dspc4,blob,confirmed,codeview,dsp4.obj; ?n1dspc4@@3QBJB
+0x1b478,n1dspa4,blob,confirmed,codeview,dsp4.obj; ?n1dspa4@@3QBJB
+0x1b6f8,n1deqm4,blob,confirmed,codeview,dsp4.obj; ?n1deqm4@@3QBJB
+0x1bbf8,n1deqc4,blob,confirmed,codeview,dsp4.obj; ?n1deqc4@@3QBJB
+0x1c0f8,n1bcr4,blob,confirmed,codeview,dsp4.obj; ?n1bcr4@@3QBJB
+0x1c5f8,n1mod4,blob,confirmed,codeview,dsp4.obj; ?n1mod4@@3QBJB
+0x1c6f8,n1mod4KeyOnOff,global,confirmed,codeview,dsp4.obj; ?n1mod4KeyOnOff@@3JB
+0x1c6fc,n1mod4WaveRam,blob,confirmed,codeview,dsp4.obj; ?n1mod4WaveRam@@3QBDB
+0x1c73c,n1fguram4,blob,confirmed,codeview,dsp4.obj; ?n1fguram4@@3QBJB
+0x1c83c,n1fgtim4,blob,confirmed,codeview,dsp4.obj; ?n1fgtim4@@3QBJB
+0x1c8bc,n1creg4,blob,confirmed,codeview,dsp4.obj; ?n1creg4@@3QBJB
+0x1c8d4,n1greg4,blob,confirmed,codeview,dsp4.obj; ?n1greg4@@3QBFB
+0x1c8f4,n1mod0KeyOnDS,blob,confirmed,codeview,dspAsio.obj; _n1mod0KeyOnDS
+0x1c8f8,n1mod0KeyOnMEL,blob,confirmed,codeview,dspAsio.obj; _n1mod0KeyOnMEL
+0x1c8fc,n1mod0KeyOn_16,blob,confirmed,codeview,dspAsio.obj; _n1mod0KeyOn_16
+0x1c900,n1mod0KeyOnMEL_16,blob,confirmed,codeview,dspAsio.obj; _n1mod0KeyOnMEL_16
+0x1c958,CMiniportTopologyDS2416::vftable_for_IMiniportTopology,vtable,confirmed,codeview,mintopo.obj; ??_7CMiniportTopologyDS2416@@6BIMiniportTopology@@@
+0x1c970,CMiniportTopologyDS2416::vftable_for_CUnknown,vtable,confirmed,codeview,mintopo.obj; ??_7CMiniportTopologyDS2416@@6BCUnknown@@@
+0x1c9f8,CMiniportTopologySW1000::vftable_for_IMiniportTopology,vtable,confirmed,codeview,mintoposw1000.obj; ??_7CMiniportTopologySW1000@@6BIMiniportTopology@@@
+0x1ca1c,CMiniportTopologySW1000::vftable_for_CUnknown,vtable,confirmed,codeview,mintoposw1000.obj; ??_7CMiniportTopologySW1000@@6BCUnknown@@@
+0x1ca2c,str_MIDIIN,string,confirmed,codeview,"wide literal ""MIDIIN""; minuart.obj; ??_C@_1O@OMIG@?$AAM?$AAI?$AAD?$AAI?$AAI?$AAN?$AA?$AA@"
+0x1ca3c,str_MIDIOUT,string,confirmed,codeview,"wide literal ""MIDIOUT""; minuart.obj; ??_C@_1BA@GAIE@?$AAM?$AAI?$AAD?$AAI?$AAO?$AAU?$AAT?$AA?$AA@"
+0x1ca4c,str_SWXG3,string,confirmed,codeview,"wide literal ""SWXG3""; minuart.obj; ??_C@_1M@JFI@?$AAS?$AAW?$AAX?$AAG?$AA3?$AA?$AA@"
+0x1ca58,str_SWXG2,string,confirmed,codeview,"wide literal ""SWXG2""; minuart.obj; ??_C@_1M@FLEO@?$AAS?$AAW?$AAX?$AAG?$AA2?$AA?$AA@"
+0x1ca64,str_SWXG1,string,confirmed,codeview,"wide literal ""SWXG1""; minuart.obj; ??_C@_1M@KNHF@?$AAS?$AAW?$AAX?$AAG?$AA1?$AA?$AA@"
+0x1ca70,CMiniportMidiUartSWXG::vftable_for_IMiniportMidi,vtable,confirmed,codeview,minuart.obj; ??_7CMiniportMidiUartSWXG@@6BIMiniportMidi@@@
+0x1ca90,CMiniportMidiUartSWXG::vftable_for_CUnknown,vtable,confirmed,codeview,minuart.obj; ??_7CMiniportMidiUartSWXG@@6BCUnknown@@@
+0x1caa0,CMiniportMidiStreamUartSWXG::vftable_for_CUnknown,vtable,confirmed,codeview,minuart.obj; ??_7CMiniportMidiStreamUartSWXG@@6BCUnknown@@@
+0x1cab0,CMiniportMidiStreamUartSWXG::vftable_for_IMiniportMidiStream,vtable,confirmed,codeview,minuart.obj; ??_7CMiniportMidiStreamUartSWXG@@6BIMiniportMidiStream@@@
+0x1cacc,str_WAVEIN4,string,confirmed,codeview,"wide literal ""WAVEIN4""; minwave.obj; ??_C@_1BA@PEDM@?$AAW?$AAA?$AAV?$AAE?$AAI?$AAN?$AA4?$AA?$AA@"
+0x1cadc,str_WAVEIN3,string,confirmed,codeview,"wide literal ""WAVEIN3""; minwave.obj; ??_C@_1BA@EKFN@?$AAW?$AAA?$AAV?$AAE?$AAI?$AAN?$AA3?$AA?$AA@"
+0x1caec,str_WAVEIN2,string,confirmed,codeview,"wide literal ""WAVEIN2""; minwave.obj; ??_C@_1BA@BIEL@?$AAW?$AAA?$AAV?$AAE?$AAI?$AAN?$AA2?$AA?$AA@"
+0x1cafc,str_WAVEIN1,string,confirmed,codeview,"wide literal ""WAVEIN1""; minwave.obj; ??_C@_1BA@OOHA@?$AAW?$AAA?$AAV?$AAE?$AAI?$AAN?$AA1?$AA?$AA@"
+0x1cb0c,str_WAVEOUT8,string,confirmed,codeview,"wide literal ""WAVEOUT8""; minwave.obj; ??_C@_1BC@MKGI@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA8?$AA?$AA@"
+0x1cb20,str_WAVEOUT7,string,confirmed,codeview,"wide literal ""WAVEOUT7""; minwave.obj; ??_C@_1BC@OELM@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA7?$AA?$AA@"
+0x1cb34,str_WAVEOUT6,string,confirmed,codeview,"wide literal ""WAVEOUT6""; minwave.obj; ??_C@_1BC@LGKK@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA6?$AA?$AA@"
+0x1cb48,str_WAVEOUT5,string,confirmed,codeview,"wide literal ""WAVEOUT5""; minwave.obj; ??_C@_1BC@EAJB@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA5?$AA?$AA@"
+0x1cb5c,str_WAVEOUT4,string,confirmed,codeview,"wide literal ""WAVEOUT4""; minwave.obj; ??_C@_1BC@BCIH@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA4?$AA?$AA@"
+0x1cb70,str_WAVEOUT3,string,confirmed,codeview,"wide literal ""WAVEOUT3""; minwave.obj; ??_C@_1BC@KMOG@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA3?$AA?$AA@"
+0x1cb84,str_WAVEOUT2,string,confirmed,codeview,"wide literal ""WAVEOUT2""; minwave.obj; ??_C@_1BC@POPA@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA2?$AA?$AA@"
+0x1cb98,str_WAVEOUT1,string,confirmed,codeview,"wide literal ""WAVEOUT1""; minwave.obj; ??_C@_1BC@IML@?$AAW?$AAA?$AAV?$AAE?$AAO?$AAU?$AAT?$AA1?$AA?$AA@"
+0x1cbac,CMiniportWaveYSWDS::vftable_for_CUnknown,vtable,confirmed,codeview,minwave.obj; ??_7CMiniportWaveYSWDS@@6BCUnknown@@@
+0x1cbbc,CMiniportWaveYSWDS::vftable_for_IMiniportWaveCyclic,vtable,confirmed,codeview,minwave.obj; ??_7CMiniportWaveYSWDS@@6BIMiniportWaveCyclic@@@
+0x1cbd8,CMiniportWaveYSWDSStream::vftable_for_IMiniportWaveCyclicStream,vtable,confirmed,codeview,minwave.obj; ??_7CMiniportWaveYSWDSStream@@6BIMiniportWaveCyclicStream@@@
+0x1cbfc,CMiniportWaveYSWDSStream::vftable_for_CUnknown,vtable,confirmed,codeview,minwave.obj; ??_7CMiniportWaveYSWDSStream@@6BCUnknown@@@
+0x1cc0c,MVolTblDS2416,table,confirmed,codeview,MVolDS2416.obj; ?MVolTblDS2416@@3QBJB
+0x1d10c,CPciUart::m_UartAdrs,global,confirmed,codeview,"2 ULONGs 0x3e000, 0x3e002; likely UART register offsets in the BAR (§10); uart.obj; ?m_UartAdrs@CPciUart@@1QBKB"
+0x1d114,dspBase,table,confirmed,codeview,"5 ULONGs 0x3f000..0x3f400 step 0x100, one per MPR set; meaning (DSP-space or BAR offset) TBD in §4/§5; yswds_const.obj; ?dspBase@@3QBKB"
+0x1d128,mprSize,table,confirmed,codeview,"11 USHORT sizes in 32-bit words, one per MPR table slot, + 0 terminator (confirmed: match table extents); yswds_const.obj; ?mprSize@@3QBGB"
+0x1d140,FadTbl,table,confirmed,codeview,yswds_const.obj; ?FadTbl@@3QBKB
+0x1d340,CUnknown::vftable,vtable,confirmed,codeview,stdunk.obj; ??_7CUnknown@@6B@
+0x1d350,_purecall,func,confirmed,codeview,adapter.obj; __purecall
+0x1d354,CAdapterCommon::GetDefaultMixerSettingsSize,func,confirmed,codeview,adapterDS2416.obj; ?GetDefaultMixerSettingsSize@CAdapterCommon@@MBEEXZ
+0x1d358,CAdapterCommon::QueryInterface,func,confirmed,codeview,adapterDS2416.obj; ?QueryInterface@CAdapterCommon@@UAGJABU_GUID@@PAPAX@Z
+0x1d370,CAdapterCommon::AddRef,func,confirmed,codeview,adapterDS2416.obj; ?AddRef@CAdapterCommon@@UAGKXZ
+0x1d380,CAdapterCommon::Release,func,confirmed,codeview,adapterDS2416.obj; ?Release@CAdapterCommon@@UAGKXZ
+0x1d390,CAdapterCommon::CAdapterCommon,func,confirmed,codeview,adapterDS2416.obj; ??0CAdapterCommon@@QAE@PAUIUnknown@@@Z
+0x1d578,CAsioSWDS::CAsioSWDS,func,confirmed,codeview,adapterDS2416.obj; ??0CAsioSWDS@@QAE@XZ
+0x1d5e8,CAsioBase::CAsioBase,func,confirmed,codeview,adapterDS2416.obj; ??0CAsioBase@@QAE@XZ
+0x1d606,CAsioBase::vector_deleting_dtor,func,confirmed,codeview,adapterDS2416.obj; ??_ECAsioBase@@UAEPAXI@Z; alias ??_GCAsioBase@@UAEPAXI@Z
+0x1d634,CAsioBase::DestroyEvent,func,confirmed,codeview,adapterDS2416.obj; ?DestroyEvent@CAsioBase@@IAEXXZ
+0x1d650,CAsioChInfo::CAsioChInfo,func,confirmed,codeview,adapterDS2416.obj; ??0CAsioChInfo@@QAE@XZ
+0x1d67c,CAsioChInfoBase::CAsioChInfoBase,func,confirmed,codeview,adapterDS2416.obj; ??0CAsioChInfoBase@@QAE@XZ
+0x1d69a,CAsioChInfoBase::GetAddressForUser,func,confirmed,codeview,adapterDS2416.obj; ?GetAddressForUser@CAsioChInfoBase@@UBEPAXXZ
+0x1d69e,CAsioChInfoBase::GetAddressForDevice,func,confirmed,codeview,adapterDS2416.obj; ?GetAddressForDevice@CAsioChInfoBase@@UBEPAXXZ
+0x1d6a2,CAsioChInfoBase::GetAddressForDriver,func,confirmed,codeview,adapterDS2416.obj; ?GetAddressForDriver@CAsioChInfoBase@@UBEPAXXZ
+0x1d6a6,CAsioChInfoBase::vector_deleting_dtor,func,confirmed,codeview,adapterDS2416.obj; ??_ECAsioChInfoBase@@UAEPAXI@Z; alias ??_GCAsioChInfoBase@@UAEPAXI@Z
+0x1d6c8,CAsioSWDS::vector_deleting_dtor,func,confirmed,codeview,adapterDS2416.obj; ??_ECAsioSWDS@@UAEPAXI@Z; alias ??_GCAsioSWDS@@UAEPAXI@Z
+0x1d6e4,CAsioSWDS::~CAsioSWDS,func,confirmed,codeview,adapterDS2416.obj; ??1CAsioSWDS@@UAE@XZ
+0x1d72c,CAsioSWDS::FreeUserSpaceAudioPage,func,confirmed,codeview,adapterDS2416.obj; ?FreeUserSpaceAudioPage@CAsioSWDS@@IAEJXZ
+0x1d758,CAdapterCommon::WaveInGetPosition,func,confirmed,codeview,adapterDS2416.obj; ?WaveInGetPosition@CAdapterCommon@@UAGKK@Z
+0x1d772,CAdapterCommon::WaveOutGetPosition,func,confirmed,codeview,adapterDS2416.obj; ?WaveOutGetPosition@CAdapterCommon@@UAGKK@Z
+0x1d78c,CAdapterCommon::WaveGetPosition,func,confirmed,codeview,adapterDS2416.obj; ?WaveGetPosition@CAdapterCommon@@UAGKHK@Z
+0x1d7b4,CAdapterCommon::GetCurrentFS,func,confirmed,codeview,adapterDS2416.obj; ?GetCurrentFS@CAdapterCommon@@UAGKXZ
+0x1d7be,CAdapterCommon::GetProductID,func,confirmed,codeview,adapterDS2416.obj; ?GetProductID@CAdapterCommon@@UAGGXZ
+0x1d7cc,CAdapterCommon::SetProductID,func,confirmed,codeview,adapterDS2416.obj; ?SetProductID@CAdapterCommon@@UAGXG@Z
+0x1d7e0,CAdapterCommon::ISetBitPORT1,func,confirmed,codeview,adapterDS2416.obj; ?ISetBitPORT1@CAdapterCommon@@UAGXK@Z
+0x1d822,KSpinLock::Lock,func,confirmed,codeview,adapterDS2416.obj; ?Lock@KSpinLock@@QAEXE@Z
+0x1d846,KSpinLock::Unlock,func,confirmed,codeview,adapterDS2416.obj; ?Unlock@KSpinLock@@QAEXXZ
+0x1d85c,CAdapterCommon::IClrBitPORT1,func,confirmed,codeview,adapterDS2416.obj; ?IClrBitPORT1@CAdapterCommon@@UAGXK@Z
+0x1d8a2,CAdapterCommon::IWritePORT1A,func,confirmed,codeview,adapterDS2416.obj; ?IWritePORT1A@CAdapterCommon@@UAGHK@Z
+0x1d8e6,CAdapterCommon::ISetPORT1,func,confirmed,codeview,adapterDS2416.obj; ?ISetPORT1@CAdapterCommon@@UAGXK@Z
+0x1d912,CAdapterCommon::IGetPORT0,func,confirmed,codeview,adapterDS2416.obj; ?IGetPORT0@CAdapterCommon@@UAGKXZ
+0x1d926,CAdapterCommon::ISetPORT0,func,confirmed,codeview,adapterDS2416.obj; ?ISetPORT0@CAdapterCommon@@UAGXK@Z
+0x1d936,CAdapterCommon::IGetPORT1W,func,confirmed,codeview,adapterDS2416.obj; ?IGetPORT1W@CAdapterCommon@@UAGKXZ
+0x1d944,CAdapterCommon::ISetMKS,func,confirmed,codeview,adapterDS2416.obj; ?ISetMKS@CAdapterCommon@@UAGXK@Z
+0x1d976,CAdapterCommon::IGetMKS,func,confirmed,codeview,adapterDS2416.obj; ?IGetMKS@CAdapterCommon@@UAGKXZ
+0x1d98a,CAdapterCommon::IgetDSP,func,confirmed,codeview,adapterDS2416.obj; ?IgetDSP@CAdapterCommon@@UAGKK@Z
+0x1d9a2,CAdapterCommon::IsetDSP,func,confirmed,codeview,adapterDS2416.obj; ?IsetDSP@CAdapterCommon@@UAGXKK@Z
+0x1d9be,CAdapterCommon::IInitDSPforYmix,func,confirmed,codeview,adapterDS2416.obj; ?IInitDSPforYmix@CAdapterCommon@@UAGXXZ
+0x1d9ce,CAdapterCommon::GetHardIoControl,func,confirmed,codeview,adapterDS2416.obj; ?GetHardIoControl@CAdapterCommon@@UAGKXZ
+0x1d9e8,CAdapterCommon::GetSIFormat4ch,func,confirmed,codeview,adapterDS2416.obj; ?GetSIFormat4ch@CAdapterCommon@@UAGHXZ
+0x1da12,CAdapterCommon::GetSIFormat2ch,func,confirmed,codeview,adapterDS2416.obj; ?GetSIFormat2ch@CAdapterCommon@@UAGHXZ
+0x1da3c,CAdapterCommon::GetSOConnection,func,confirmed,codeview,adapterDS2416.obj; ?GetSOConnection@CAdapterCommon@@UAGHXZ
+0x1da52,CAdapterCommon::Is32bitMPR,func,confirmed,codeview,adapterDS2416.obj; ?Is32bitMPR@CAdapterCommon@@UAGHXZ
+0x1da5c,CAdapterCommon::GetNumberOfWaveIn,func,confirmed,codeview,adapterDS2416.obj; ?GetNumberOfWaveIn@CAdapterCommon@@UAGEXZ
+0x1da6a,CAdapterCommon::GetNumberOfWaveOut,func,confirmed,codeview,adapterDS2416.obj; ?GetNumberOfWaveOut@CAdapterCommon@@UAGEXZ
+0x1da78,CAdapterCommon::SetYmixOpen,func,confirmed,codeview,adapterDS2416.obj; ?SetYmixOpen@CAdapterCommon@@UAGXK@Z
+0x1da7c,CAdapterCommon::GetYmixOpen,func,confirmed,codeview,adapterDS2416.obj; ?GetYmixOpen@CAdapterCommon@@UAGKXZ
+0x1da82,CAdapterCommon::TrwDisable,func,confirmed,codeview,adapterDS2416.obj; ?TrwDisable@CAdapterCommon@@UAGHH@Z
+0x1daaa,CAdapterCommon::TrwEnable,func,confirmed,codeview,adapterDS2416.obj; ?TrwEnable@CAdapterCommon@@UAGHH@Z
+0x1dad0,CAdapterCommon::GetTRWFValue,func,confirmed,codeview,adapterDS2416.obj; ?GetTRWFValue@CAdapterCommon@@UAGKXZ
+0x1dade,CAdapterCommon::vector_deleting_dtor,func,confirmed,codeview,adapterDS2416.obj; ??_ECAdapterCommon@@UAEPAXI@Z; alias ??_GCAdapterCommon@@UAEPAXI@Z
+0x1dafe,CAdapterCommon::WaveGetPositionCore,func,confirmed,codeview,adapterDS2416.obj; ?WaveGetPositionCore@CAdapterCommon@@AAEKPAU_WaveInfo@@@Z
+0x1db28,CAdapterCommon::GetTP,func,confirmed,codeview,adapterDS2416.obj; ?GetTP@CAdapterCommon@@UAGKK@Z
+0x1db68,CAdapterCommon::SetTP,func,confirmed,codeview,adapterDS2416.obj; ?SetTP@CAdapterCommon@@UAGHKK@Z
+0x1dba0,CAdapterCommon::SetSA,func,confirmed,codeview,adapterDS2416.obj; ?SetSA@CAdapterCommon@@UAGHKK@Z
+0x1dbd8,CAdapterCommon::SetEA,func,confirmed,codeview,adapterDS2416.obj; ?SetEA@CAdapterCommon@@UAGHKK@Z
+0x1dc10,CAdapterCommon::SetIA,func,confirmed,codeview,adapterDS2416.obj; ?SetIA@CAdapterCommon@@UAGHKK@Z
+0x1dc48,CAdapterCommon::SetARP,func,confirmed,codeview,adapterDS2416.obj; ?SetARP@CAdapterCommon@@UAGHKK@Z
+0x1dc80,CAdapterCommon::SetAPP,func,confirmed,codeview,adapterDS2416.obj; ?SetAPP@CAdapterCommon@@UAGHKK@Z
+0x1dcb8,CAdapterCommon::SetARF,func,confirmed,codeview,adapterDS2416.obj; ?SetARF@CAdapterCommon@@UAGHKK@Z
+0x1dcdc,CAdapterCommon::SetAPF,func,confirmed,codeview,adapterDS2416.obj; ?SetAPF@CAdapterCommon@@UAGHKK@Z
+0x1dd00,CAdapterCommon::SetTRWF,func,confirmed,codeview,adapterDS2416.obj; ?SetTRWF@CAdapterCommon@@UAGHK@Z
+0x1dd52,CAdapterCommon::SetRAMCoreWithSpinLock,func,confirmed,codeview,adapterDS2416.obj; ?SetRAMCoreWithSpinLock@CAdapterCommon@@AAEJKK@Z
+0x1de08,CAdapterCommon::SetSUSF,func,confirmed,codeview,adapterDS2416.obj; ?SetSUSF@CAdapterCommon@@UAGHK@Z
+0x1de5a,CAdapterCommon::GetSUSF,func,confirmed,codeview,adapterDS2416.obj; ?GetSUSF@CAdapterCommon@@UAGKXZ
+0x1de96,CAdapterCommon::SetSyncDspRun,func,confirmed,codeview,adapterDS2416.obj; ?SetSyncDspRun@CAdapterCommon@@UAGXKPAPAX@Z
+0x1dec8,CAdapterCommon::SetSyncDspStop,func,confirmed,codeview,adapterDS2416.obj; ?SetSyncDspStop@CAdapterCommon@@UAGXKPAPAX@Z
+0x1defa,CAdapterCommon::SetSyncPORT1Run,func,confirmed,codeview,adapterDS2416.obj; ?SetSyncPORT1Run@CAdapterCommon@@UAGXKPAPAX@Z
+0x1df2c,CAdapterCommon::ResetSyncPORT1Run,func,confirmed,codeview,adapterDS2416.obj; ?ResetSyncPORT1Run@CAdapterCommon@@UAGXKPAPAX@Z
+0x1df5e,CAdapterCommon::SetPORT0,func,confirmed,codeview,adapterDS2416.obj; ?SetPORT0@CAdapterCommon@@AAEXK@Z
+0x1df94,CAdapterCommon::SetPORT1,func,confirmed,codeview,adapterDS2416.obj; ?SetPORT1@CAdapterCommon@@AAEXK@Z
+0x1dfde,CAdapterCommon::IrqMask,func,confirmed,codeview,adapterDS2416.obj; ?IrqMask@CAdapterCommon@@UAGXXZ
+0x1e012,CAdapterCommon::IrqUnMask,func,confirmed,codeview,adapterDS2416.obj; ?IrqUnMask@CAdapterCommon@@UAGXXZ
+0x1e046,CAdapterCommon::SetTWRP,func,confirmed,codeview,adapterDS2416.obj; ?SetTWRP@CAdapterCommon@@UAGHKK@Z
+0x1e07e,CAdapterCommon::GetSCR,func,confirmed,codeview,adapterDS2416.obj; ?GetSCR@CAdapterCommon@@UAGKXZ
+0x1e092,CAdapterCommon::SetSCR,func,confirmed,codeview,adapterDS2416.obj; ?SetSCR@CAdapterCommon@@UAGXK@Z
+0x1e0b0,CAdapterCommon::ClearInitialTimeStamp,func,confirmed,codeview,adapterDS2416.obj; ?ClearInitialTimeStamp@CAdapterCommon@@MAEXXZ
+0x1e0ca,CAdapterCommon::LockAudio,func,confirmed,codeview,adapterDS2416.obj; ?LockAudio@CAdapterCommon@@UAGHXZ
+0x1e114,CAdapterCommon::UnLockAudio,func,confirmed,codeview,adapterDS2416.obj; ?UnLockAudio@CAdapterCommon@@UAGHXZ
+0x1e15a,CAdapterCommon::TestLockAudio,func,confirmed,codeview,adapterDS2416.obj; ?TestLockAudio@CAdapterCommon@@UAGHXZ
+0x1e19e,CAdapterCommon::SetAsioPointer,func,confirmed,codeview,adapterDS2416.obj; ?SetAsioPointer@CAdapterCommon@@UAGXPAX@Z
+0x1e1b0,CAdapterDS2416::GetPlayFactor,func,confirmed,codeview,adapterDS2416.obj; ?GetPlayFactor@CAdapterDS2416@@EAEKXZ
+0x1e1b6,CAdapterDS2416::GetProductID,func,confirmed,codeview,adapterDS2416.obj; ?GetProductID@CAdapterDS2416@@UAGGXZ
+0x1e1be,CAdapterDS2416::IsYmixOpened,func,confirmed,codeview,adapterDS2416.obj; ?IsYmixOpened@CAdapterDS2416@@UAGHXZ
+0x1e1d0,CAdapterDS2416::SetYmixOpen,func,confirmed,codeview,adapterDS2416.obj; ?SetYmixOpen@CAdapterDS2416@@UAGXK@Z
+0x1e1f2,CAdapterDS2416::GetYmixOpen,func,confirmed,codeview,adapterDS2416.obj; ?GetYmixOpen@CAdapterDS2416@@UAGKXZ
+0x1e200,CAdapterCommon::IrqDisableAll,func,confirmed,codeview,adapterDS2416.obj; ?IrqDisableAll@CAdapterCommon@@IAEXXZ
+0x1e226,CAdapterCommon::SetTRPIF,func,confirmed,codeview,adapterDS2416.obj; ?SetTRPIF@CAdapterCommon@@AAEHK@Z
+0x1e26c,CAdapterCommon::SetPORT1Running,func,confirmed,codeview,adapterDS2416.obj; ?SetPORT1Running@CAdapterCommon@@IAEXXZ
+0x1e29c,CAdapterDS2416::InterruptServiceRoutine,func,confirmed,codeview,adapterDS2416.obj; ?InterruptServiceRoutine@CAdapterDS2416@@EAEJXZ
+0x1e44a,CAdapterCommon::SetRAMCore,func,confirmed,codeview,adapterDS2416.obj; ?SetRAMCore@CAdapterCommon@@AAEJKK@Z
+0x1e4e6,CAdapterCommon::QueryInterface_thunk_0x4,func,confirmed,codeview,virtual adjustor thunk (this -= 0x4); adapterDS2416.obj; ?QueryInterface@CAdapterCommon@@W3AGJABU_GUID@@PAPAX@Z
+0x1e4f0,CAdapterCommon::AddRef_thunk_0x4,func,confirmed,codeview,virtual adjustor thunk (this -= 0x4); adapterDS2416.obj; ?AddRef@CAdapterCommon@@W3AGKXZ
+0x1e4fa,CAdapterCommon::Release_thunk_0x4,func,confirmed,codeview,virtual adjustor thunk (this -= 0x4); adapterDS2416.obj; ?Release@CAdapterCommon@@W3AGKXZ
+0x1e504,CPciUart::CPciUart,func,confirmed,codeview,AdapterSW1000.obj; ??0CPciUart@@QAE@XZ
+0x1e540,CPciUart::CUartChannel::CUartChannel,func,confirmed,codeview,AdapterSW1000.obj; ??0CUartChannel@CPciUart@@QAE@XZ
+0x1e57c,KMutex::KMutex,func,confirmed,codeview,AdapterSW1000.obj; ??0KMutex@@QAE@K@Z
+0x1e5a2,CPciUart::vector_deleting_dtor,func,confirmed,codeview,AdapterSW1000.obj; ??_ECPciUart@@UAEPAXI@Z; alias ??_GCPciUart@@UAEPAXI@Z
+0x1e5be,CMidiIn::CMidiIn,func,confirmed,codeview,AdapterSW1000.obj; ??0CMidiIn@@QAE@XZ
+0x1e606,CMidiBase::CMidiBase,func,confirmed,codeview,AdapterSW1000.obj; ??0CMidiBase@@QAE@XZ
+0x1e62c,CMidiBase::Connection,func,confirmed,codeview,AdapterSW1000.obj; ?Connection@CMidiBase@@UAEXPAUIAdapterCommon@@PAUIPciUart@@EE@Z
+0x1e65a,CMidiIn::GetTRPIFBit,func,confirmed,codeview,AdapterSW1000.obj; ?GetTRPIFBit@CMidiIn@@MAEEE@Z
+0x1e666,CMidiIn::ClearQueue,func,confirmed,codeview,AdapterSW1000.obj; ?ClearQueue@CMidiIn@@UAEXXZ
+0x1e676,CMidiIn::vector_deleting_dtor,func,confirmed,codeview,AdapterSW1000.obj; ??_ECMidiIn@@UAEPAXI@Z; alias ??_GCMidiIn@@UAEPAXI@Z
+0x1e69a,CMidiOut::CMidiOut,func,confirmed,codeview,AdapterSW1000.obj; ??0CMidiOut@@QAE@XZ
+0x1e6b8,CMidiOut::GetTRPIFBit,func,confirmed,codeview,AdapterSW1000.obj; ?GetTRPIFBit@CMidiOut@@MAEEE@Z
+0x1e6c4,CMidiOut::vector_deleting_dtor,func,confirmed,codeview,AdapterSW1000.obj; ??_ECMidiOut@@UAEPAXI@Z; alias ??_GCMidiOut@@UAEPAXI@Z
+0x1e6e2,CAdapterSW1000::GetPlayFactor,func,confirmed,codeview,AdapterSW1000.obj; ?GetPlayFactor@CAdapterSW1000@@EAEKXZ
+0x1e6e8,CAdapterSW1000::QueryInterface,func,confirmed,codeview,AdapterSW1000.obj; ?QueryInterface@CAdapterSW1000@@UAGJABU_GUID@@PAPAX@Z
+0x1e702,CAdapterSW1000::AddRef,func,confirmed,codeview,AdapterSW1000.obj; ?AddRef@CAdapterSW1000@@UAGKXZ
+0x1e716,CAdapterSW1000::Release,func,confirmed,codeview,AdapterSW1000.obj; ?Release@CAdapterSW1000@@UAGKXZ
+0x1e72a,CAdapterSW1000::GetProductID,func,confirmed,codeview,AdapterSW1000.obj; ?GetProductID@CAdapterSW1000@@UAGGXZ
+0x1e732,CAdapterSW1000::InitCrit,func,confirmed,codeview,AdapterSW1000.obj; ?InitCrit@CAdapterSW1000@@QAEJXZ
+0x1e766,SWXGInit,func,confirmed,codeview,AdapterSW1000.obj; ?SWXGInit@@YGJPAUIInterruptSync@@PAX@Z
+0x1e778,CAdapterSW1000::InterruptServiceRoutine,func,confirmed,codeview,AdapterSW1000.obj; ?InterruptServiceRoutine@CAdapterSW1000@@EAEJXZ
+0x1e9c4,CAdapterSW1000::GetMidiIn,func,confirmed,codeview,AdapterSW1000.obj; ?GetMidiIn@CAdapterSW1000@@UAGPAVCMidiIn@@E@Z
+0x1e9de,CAdapterSW1000::GetMidiOut,func,confirmed,codeview,AdapterSW1000.obj; ?GetMidiOut@CAdapterSW1000@@UAGPAVCMidiOut@@E@Z
+0x1e9f4,"CQueueBase<uchar,0x2000>::CQueueBase",func,confirmed,codeview,AdapterSW1000.obj; ??0?$CQueueBase@E$0CAAA@@@QAE@XZ
+0x1ea26,"CQueueBase<uchar,0x400>::CQueueBase",func,confirmed,codeview,AdapterSW1000.obj; ??0?$CQueueBase@E$0EAA@@@QAE@XZ
+0x1ea58,"CQueueBase<uchar,0x2000>::vector_deleting_dtor",func,confirmed,codeview,AdapterSW1000.obj; ??_E?$CQueueBase@E$0CAAA@@@UAEPAXI@Z; alias ??_G?$CQueueBase@E$0CAAA@@@UAEPAXI@Z
+0x1ea76,"CQueueBase<uchar,0x400>::vector_deleting_dtor",func,confirmed,codeview,AdapterSW1000.obj; ??_E?$CQueueBase@E$0EAA@@@UAEPAXI@Z; alias ??_G?$CQueueBase@E$0EAA@@@UAEPAXI@Z
+0x1ea94,CAdapterSW1000::QueryInterface_thunk_0x4,func,confirmed,codeview,virtual adjustor thunk (this -= 0x4); AdapterSW1000.obj; ?QueryInterface@CAdapterSW1000@@W3AGJABU_GUID@@PAPAX@Z
+0x1ea9e,CAdapterSW1000::AddRef_thunk_0x4,func,confirmed,codeview,virtual adjustor thunk (this -= 0x4); AdapterSW1000.obj; ?AddRef@CAdapterSW1000@@W3AGKXZ
+0x1eaa8,CAdapterSW1000::Release_thunk_0x4,func,confirmed,codeview,virtual adjustor thunk (this -= 0x4); AdapterSW1000.obj; ?Release@CAdapterSW1000@@W3AGKXZ
+0x1eab2,CAdapterSW1000::QueryInterface_thunk_0x40c8,func,confirmed,codeview,virtual adjustor thunk (this -= 0x40c8); AdapterSW1000.obj; ?QueryInterface@CAdapterSW1000@@WEAMI@AGJABU_GUID@@PAPAX@Z
+0x1eac0,CAdapterSW1000::AddRef_thunk_0x40c8,func,confirmed,codeview,virtual adjustor thunk (this -= 0x40c8); AdapterSW1000.obj; ?AddRef@CAdapterSW1000@@WEAMI@AGKXZ
+0x1eace,CAdapterSW1000::Release_thunk_0x40c8,func,confirmed,codeview,virtual adjustor thunk (this -= 0x40c8); AdapterSW1000.obj; ?Release@CAdapterSW1000@@WEAMI@AGKXZ
+0x1eadc,CAdapterSW1000::QueryInterface_thunk_0x40cc,func,confirmed,codeview,virtual adjustor thunk (this -= 0x40cc); AdapterSW1000.obj; ?QueryInterface@CAdapterSW1000@@WEAMM@AGJABU_GUID@@PAPAX@Z
+0x1eaea,CAdapterSW1000::AddRef_thunk_0x40cc,func,confirmed,codeview,virtual adjustor thunk (this -= 0x40cc); AdapterSW1000.obj; ?AddRef@CAdapterSW1000@@WEAMM@AGKXZ
+0x1eaf8,CAdapterSW1000::Release_thunk_0x40cc,func,confirmed,codeview,virtual adjustor thunk (this -= 0x40cc); AdapterSW1000.obj; ?Release@CAdapterSW1000@@WEAMM@AGKXZ
+0x1eb06,CAdapterSW1000::vector_deleting_dtor,func,confirmed,codeview,AdapterSW1000.obj; ??_ECAdapterSW1000@@WEAMM@AEPAXI@Z
+0x1eb12,CDeviceInterfaces::CDeviceInterfaces,func,confirmed,codeview,AsioBase.obj; ??0CDeviceInterfaces@@QAE@U_GUID@@H@Z
+0x1eb52,CDeviceInterfaces::EnumSymbolicLink,func,confirmed,codeview,AsioBase.obj; ?EnumSymbolicLink@CDeviceInterfaces@@QAEPAGPAG@Z
+0x1eb7e,CDeviceInterfaces::vector_deleting_dtor,func,confirmed,codeview,AsioBase.obj; ??_ECDeviceInterfaces@@UAEPAXI@Z; alias ??_GCDeviceInterfaces@@UAEPAXI@Z
+0x1eba8,CAsioBase::SetEvent,func,confirmed,codeview,AsioBase.obj; ?SetEvent@CAsioBase@@IAEXXZ
+0x1ebbc,CAsioBase::DpcForAsioIrqProcess,func,confirmed,codeview,AsioBase.obj; ?DpcForAsioIrqProcess@CAsioBase@@KGXPAU_KDPC@@PAX11@Z
+0x1ebc8,CAsioChInfo::IrqEnable,func,confirmed,codeview,AsioSWDS.obj; ?IrqEnable@CAsioChInfo@@QAEXXZ
+0x1ebd8,CAsioChInfo::IrqDisable,func,confirmed,codeview,AsioSWDS.obj; ?IrqDisable@CAsioChInfo@@QAEXXZ
+0x1ebe8,CAsioChInfo::TrwEnable,func,confirmed,codeview,AsioSWDS.obj; ?TrwEnable@CAsioChInfo@@QAEXXZ
+0x1ebfa,CAsioChInfo::TrwDisable,func,confirmed,codeview,AsioSWDS.obj; ?TrwDisable@CAsioChInfo@@QAEXXZ
+0x1ec0c,CAsioChInfo::SetSA,func,confirmed,codeview,AsioSWDS.obj; ?SetSA@CAsioChInfo@@QAEXK@Z
+0x1ec24,CAsioChInfo::SetTP,func,confirmed,codeview,AsioSWDS.obj; ?SetTP@CAsioChInfo@@QAEXK@Z
+0x1ec3c,CAsioChInfo::SetIA,func,confirmed,codeview,AsioSWDS.obj; ?SetIA@CAsioChInfo@@QAEXK@Z
+0x1ec54,CAsioChInfo::SetEA,func,confirmed,codeview,AsioSWDS.obj; ?SetEA@CAsioChInfo@@QAEXK@Z
+0x1ec6c,CAsioChInfo::SetAPP,func,confirmed,codeview,AsioSWDS.obj; ?SetAPP@CAsioChInfo@@QAEXK@Z
+0x1ec84,CAsioChInfo::SetARP,func,confirmed,codeview,AsioSWDS.obj; ?SetARP@CAsioChInfo@@QAEXK@Z
+0x1eca0,CAsioChInfo::SetAPF,func,confirmed,codeview,AsioSWDS.obj; ?SetAPF@CAsioChInfo@@QAEXK@Z
+0x1ecb8,CAsioChInfo::SetARF,func,confirmed,codeview,AsioSWDS.obj; ?SetARF@CAsioChInfo@@QAEXK@Z
+0x1ecd4,CAsioChInfo::SetTWRP,func,confirmed,codeview,AsioSWDS.obj; ?SetTWRP@CAsioChInfo@@QAEXK@Z
+0x1ecec,CAsioChInfo::SetPSCPEC,func,confirmed,codeview,AsioSWDS.obj; ?SetPSCPEC@CAsioChInfo@@QAEXKK@Z
+0x1ed08,CAsioChInfo::SetRSCREC,func,confirmed,codeview,AsioSWDS.obj; ?SetRSCREC@CAsioChInfo@@QAEXKK@Z
+0x1ed28,CAsioSWDS::BuildNoOfHard,func,confirmed,codeview,AsioSWDS.obj; ?BuildNoOfHard@CAsioSWDS@@IAEXXZ
+0x1ed48,CAsioSWDS::ScanHardDSOnly,func,confirmed,codeview,AsioSWDS.obj; ?ScanHardDSOnly@CAsioSWDS@@IAEHPAVCAdapterCommonTable@@H@Z
+0x1edbe,CAsioSWDS::AllocateUserSpaceAudioPage,func,confirmed,codeview,AsioSWDS.obj; ?AllocateUserSpaceAudioPage@CAsioSWDS@@IAEJXZ
+0x1ede4,CAsioChInfo::Init,func,confirmed,codeview,AsioSWDS.obj; ?Init@CAsioChInfo@@QAEXPAUIAdapterCommon@@EEK@Z
+0x1ee32,CAsioChInfo::SendAdrs,func,confirmed,codeview,AsioSWDS.obj; ?SendAdrs@CAsioChInfo@@QAEXXZ
+0x1ee6a,CAsioChInfoBase::ClearBuffer,func,confirmed,codeview,AsioSWDS.obj; ?ClearBuffer@CAsioChInfoBase@@QAEXXZ
+0x1ee8c,CAsioChInfo::SetBufferSilent,func,confirmed,codeview,AsioSWDS.obj; ?SetBufferSilent@CAsioChInfo@@QAEXXZ
+0x1eeb0,CAsioSWDS::IrqProcessCore,func,confirmed,codeview,AsioSWDS.obj; ?IrqProcessCore@CAsioSWDS@@MAEHXZ
+0x1ef6e,CAsioSWDS::IrqProcess,func,confirmed,codeview,AsioSWDS.obj; ?IrqProcess@CAsioSWDS@@QAEXK@Z
+0x1efde,CAdapterCommon::WavePortDriverDest,func,confirmed,codeview,common.obj; ?WavePortDriverDest@CAdapterCommon@@UAGPAPAUIUnknown@@E@Z
+0x1eff2,CAdapterCommon::MidiPortDriverDest,func,confirmed,codeview,common.obj; ?MidiPortDriverDest@CAdapterCommon@@UAGPAPAUIUnknown@@E@Z
+0x1f006,CAdapterCommon::SetWaveServiceGroup,func,confirmed,codeview,common.obj; ?SetWaveServiceGroup@CAdapterCommon@@UAGXPAUIServiceGroup@@E@Z
+0x1f03c,CAdapterCommon::GetWaveServiceGroup,func,confirmed,codeview,common.obj; ?GetWaveServiceGroup@CAdapterCommon@@QAGPAUIServiceGroup@@E@Z
+0x1f050,CAdapterCommon::SetMidiServiceGroup,func,confirmed,codeview,common.obj; ?SetMidiServiceGroup@CAdapterCommon@@UAGXPAUIServiceGroup@@E@Z
+0x1f086,CAdapterCommon::GetMidiServiceGroup,func,confirmed,codeview,common.obj; ?GetMidiServiceGroup@CAdapterCommon@@UAGPAUIServiceGroup@@E@Z
+0x1f09a,CAdapterCommon::MixerRegWrite,func,confirmed,codeview,common.obj; ?MixerRegWrite@CAdapterCommon@@UAGXEK@Z
+0x1f0d2,CAdapterCommon::MixerRegRead,func,confirmed,codeview,common.obj; ?MixerRegRead@CAdapterCommon@@UAGKE@Z
+0x1f0f0,CAdapterCommon::MixerReset,func,confirmed,codeview,common.obj; ?MixerReset@CAdapterCommon@@UAGXXZ
+0x1f0fe,CAdapterCommon::WaitMicroSeconds,func,confirmed,codeview,common.obj; ?WaitMicroSeconds@CAdapterCommon@@SGX_K@Z
+0x1f10c,CAdapterCommon::GetTimeInterval,func,confirmed,codeview,common.obj; ?GetTimeInterval@CAdapterCommon@@SG_K_K@Z
+0x1f126,QueryTime100ns,func,likely,analysis,"KeQueryPerformanceCounter -> 100ns time, caches frequency at 0x234c0..0x234cc (§14); was unnamed_1f126; function entry found by Ghidra; no public symbol (file-static); common.obj; called from CAdapterCommon::GetTimeInterval (0x1f10c); name TBD"
+0x1f1ce,CAdapterCommon::RestoreMixerSettingsFromRegistry,func,confirmed,codeview,common.obj; ?RestoreMixerSettingsFromRegistry@CAdapterCommon@@UAGJXZ
+0x1f39c,CAdapterCommon::SaveMixerSettingsToRegistry,func,confirmed,codeview,common.obj; ?SaveMixerSettingsToRegistry@CAdapterCommon@@UAGJXZ
+0x1f47c,CAdapterCommon::PowerChangeState,func,confirmed,codeview,common.obj; ?PowerChangeState@CAdapterCommon@@UAGXT_POWER_STATE@@@Z
+0x1f4fa,CAdapterCommon::QueryPowerChangeState,func,confirmed,codeview,common.obj; ?QueryPowerChangeState@CAdapterCommon@@UAGJT_POWER_STATE@@@Z
+0x1f538,CAdapterCommon::QueryDeviceCapabilities,func,confirmed,codeview,common.obj; ?QueryDeviceCapabilities@CAdapterCommon@@UAGJPAU_DEVICE_CAPABILITIES@@@Z
+0x1f53e,InterruptServiceRoutine,func,confirmed,codeview,common.obj; ?InterruptServiceRoutine@@YGJPAUIInterruptSync@@PAX@Z
+0x1f54e,SyncGetRAM,func,confirmed,codeview,common.obj; ?SyncGetRAM@@YGJPAUIInterruptSync@@PAX@Z
+0x1f562,CAdapterCommon::GetRAMCore,func,confirmed,codeview,common.obj; ?GetRAMCore@CAdapterCommon@@AAEJKPAK@Z
+0x1f632,CAdapterCommon::GetRAM,func,confirmed,codeview,common.obj; ?GetRAM@CAdapterCommon@@UAGHKPAK@Z
+0x1f71a,SyncSetRAM,func,confirmed,codeview,common.obj; ?SyncSetRAM@@YGJPAUIInterruptSync@@PAX@Z
+0x1f72e,CAdapterCommon::SetRAM,func,confirmed,codeview,common.obj; ?SetRAM@CAdapterCommon@@UAGHKK@Z
+0x1f7e2,CAdapterCommon::SendRAM,func,confirmed,codeview,RAM block write: single burst with CTRL bit-24 bracket - differs from SendDSPCore (§4); common.obj; ?SendRAM@CAdapterCommon@@UAGHKGPAK@Z
+0x1f8c6,SyncGetDSP,func,confirmed,codeview,common.obj; ?SyncGetDSP@@YGJPAUIInterruptSync@@PAX@Z
+0x1f8e0,CAdapterCommon::GetDSPCore,func,confirmed,codeview,common.obj; ?GetDSPCore@CAdapterCommon@@AAEJGKPAK@Z
+0x1f9b0,CAdapterCommon::GetDSP,func,confirmed,codeview,common.obj; ?GetDSP@CAdapterCommon@@UAGHGGKPAK@Z
+0x1fb14,SyncSetDSP,func,confirmed,codeview,common.obj; ?SyncSetDSP@@YGJPAUIInterruptSync@@PAX@Z
+0x1fb2e,CAdapterCommon::SetDSPCore,func,confirmed,codeview,common.obj; ?SetDSPCore@CAdapterCommon@@AAEJGKK@Z
+0x1fbb8,CAdapterCommon::SetDSP,func,confirmed,codeview,common.obj; ?SetDSP@CAdapterCommon@@UAGHGGKK@Z
+0x1fcca,SyncSendDSP,func,confirmed,codeview,common.obj; ?SyncSendDSP@@YGJPAUIInterruptSync@@PAX@Z
+0x1fce8,CAdapterCommon::SendDSPCore,func,confirmed,codeview,common.obj; ?SendDSPCore@CAdapterCommon@@AAEJGKGPAK@Z
+0x1fdaa,CAdapterCommon::SendDSP,func,confirmed,codeview,common.obj; ?SendDSP@CAdapterCommon@@UAGHGGKGPAK@Z
+0x1ff0c,CAdapterCommon::WaveDmaRegResetCore,func,confirmed,codeview,common.obj; ?WaveDmaRegResetCore@CAdapterCommon@@AAEXPAU_WaveInfo@@@Z
+0x1ff82,CAdapterCommon::SetPowerChangeEnable,func,confirmed,codeview,common.obj; ?SetPowerChangeEnable@CAdapterCommon@@UAGJH@Z
+0x1ff96,CAdapterCommon::W_CCK,func,confirmed,codeview,common.obj; ?W_CCK@CAdapterCommon@@QAEHPAH@Z
+0x1ffd0,CAdapterCommon::W_CLDW,func,confirmed,codeview,common.obj; ?W_CLDW@CAdapterCommon@@QAEHPAH@Z
+0x2000a,CAdapterCommon::W_CDO0,func,confirmed,codeview,common.obj; ?W_CDO0@CAdapterCommon@@QAEHPAH@Z
+0x20044,CAdapterCommon::dif_clk,func,confirmed,codeview,common.obj; ?dif_clk@CAdapterCommon@@QAEXXZ
+0x2006e,CAdapterCommon::set_dit,func,confirmed,codeview,DIT register write: CLDW low; data bits; 2 select bits; CLDW high (§5); common.obj; ?set_dit@CAdapterCommon@@QAEXEH@Z
+0x201b4,CAdapterCommon::set_sub_code,func,confirmed,codeview,ignores args; DIT regs 0..2 <- 0x204 / 0x8 / 0 (§5); common.obj; ?set_sub_code@CAdapterCommon@@QAEXEEEE@Z
+0x201de,CAdapterCommon::dspSetRun,func,confirmed,codeview,either/or on Is32bitMPR: 0xe0 run word only on SW1000 (§5); common.obj; ?dspSetRun@CAdapterCommon@@QAEXH@Z
+0x20220,CAdapterCommon::SetRun16,func,confirmed,codeview,common.obj; ?SetRun16@CAdapterCommon@@AAEXH@Z
+0x2026a,CAdapterCommon::SetTRWFO,func,confirmed,codeview,common.obj; ?SetTRWFO@CAdapterCommon@@AAEHK@Z
+0x202ba,CAdapterCommon::SetNResDSP0,func,confirmed,codeview,common.obj; ?SetNResDSP0@CAdapterCommon@@AAEXH@Z
+0x202dc,CAdapterCommon::SetMute,func,confirmed,codeview,common.obj; ?SetMute@CAdapterCommon@@AAEXH@Z
+0x202fe,CAdapterCommon::GetTRWFO,func,confirmed,codeview,common.obj; ?GetTRWFO@CAdapterCommon@@AAEKXZ
+0x20334,CAdapterCommon::SendGlobal,func,confirmed,codeview,"writes port regs +0x88/+0x8c/+0x90 from greg[4,5,7,8] (§5); common.obj; ?SendGlobal@CAdapterCommon@@QAEXGPBF@Z"
+0x2039c,CAdapterCommon::SendMpr,func,confirmed,codeview,"SendDSP(dsp=set, selector=slot<<8, addr 0, mprSize[slot] words) (§5); common.obj; ?SendMpr@CAdapterCommon@@QAEHGGPAK@Z"
+0x203c8,CAdapterCommon::WaveDmaRegIniz,func,confirmed,codeview,common.obj; ?WaveDmaRegIniz@CAdapterCommon@@UAGXHKPAUIDmaChannel@@@Z
+0x2041c,CAdapterCommon::WaveDmaRegDeiniz,func,confirmed,codeview,common.obj; ?WaveDmaRegDeiniz@CAdapterCommon@@UAGXHK@Z
+0x2044c,CAdapterCommon::WaveDmaRegReset,func,confirmed,codeview,common.obj; ?WaveDmaRegReset@CAdapterCommon@@UAGXHK@Z
+0x20474,CAdapterCommon::WaveDmaRegSetFrameSize,func,confirmed,codeview,common.obj; ?WaveDmaRegSetFrameSize@CAdapterCommon@@UAGKHKK@Z
+0x2049e,CAdapterCommon::WaveDmaRegSetFrameSizeCore,func,confirmed,codeview,common.obj; ?WaveDmaRegSetFrameSizeCore@CAdapterCommon@@AAEKPAU_WaveInfo@@K@Z
+0x20516,CAdapterCommon::SWDSControl,func,confirmed,codeview,common.obj; ?SWDSControl@CAdapterCommon@@UAGJPAU_PCPROPERTY_REQUEST@@@Z
+0x2059c,CAdapterCommon::ControlSetParamExt,func,confirmed,codeview,common.obj; ?ControlSetParamExt@CAdapterCommon@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x20642,CAdapterCommon::ControlGetParamExt,func,confirmed,codeview,common.obj; ?ControlGetParamExt@CAdapterCommon@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x2068e,CAdapterCommon::asioControl,func,confirmed,codeview,common.obj; ?asioControl@CAdapterCommon@@IAEKKPAX0@Z
+0x206de,CAdapterCommon::GetNumOfTotal,func,confirmed,codeview,common.obj; ?GetNumOfTotal@CAdapterCommon@@UAGEXZ
+0x20736,CDeviceInterfaces::CountActiveDevice,func,confirmed,codeview,common.obj; ?CountActiveDevice@CDeviceInterfaces@@QAEKPAG@Z
+0x20768,CAdapterCommon::GetProductID_20768,func,confirmed,codeview,common.obj; ?GetProductID@CAdapterCommon@@UAGGE@Z
+0x20808,CAdapterCommon::ControlGetInfo,func,confirmed,codeview,common.obj; ?ControlGetInfo@CAdapterCommon@@UAGJPAU_PCPROPERTY_REQUEST@@@Z
+0x2082a,CAdapterCommon::ControlGetInfoN,func,confirmed,codeview,common.obj; ?ControlGetInfoN@CAdapterCommon@@UAGJPAU_PCPROPERTY_REQUEST@@@Z
+0x20862,CAdapterCommon::ControlGetNumOfBoards,func,confirmed,codeview,common.obj; ?ControlGetNumOfBoards@CAdapterCommon@@UAGJPAU_PCPROPERTY_REQUEST@@@Z
+0x20880,CAdapterCommon::IrqEnable,func,confirmed,codeview,common.obj; ?IrqEnable@CAdapterCommon@@UAGXH@Z
+0x208ba,CAdapterCommon::IrqEnableISR,func,confirmed,codeview,common.obj; ?IrqEnableISR@CAdapterCommon@@UAGXH@Z
+0x208e4,CAdapterCommon::IrqDisable,func,confirmed,codeview,common.obj; ?IrqDisable@CAdapterCommon@@UAGXH@Z
+0x20920,CAdapterCommon::IrqDisableISR,func,confirmed,codeview,common.obj; ?IrqDisableISR@CAdapterCommon@@IAEXH@Z
+0x2094a,SyncSetTRPIF,func,confirmed,codeview,common.obj; ?SyncSetTRPIF@@YGJPAUIInterruptSync@@PAX@Z
+0x2096a,SyncSetSyncDspRun,func,confirmed,codeview,common.obj; ?SyncSetSyncDspRun@@YGJPAUIInterruptSync@@PAX@Z
+0x209e6,SyncSetSyncDspStop,func,confirmed,codeview,common.obj; ?SyncSetSyncDspStop@@YGJPAUIInterruptSync@@PAX@Z
+0x20a5c,SyncSetSyncPORT1Run,func,confirmed,codeview,common.obj; ?SyncSetSyncPORT1Run@@YGJPAUIInterruptSync@@PAX@Z
+0x20a92,SyncResetSyncPORT1Run,func,confirmed,codeview,common.obj; ?SyncResetSyncPORT1Run@@YGJPAUIInterruptSync@@PAX@Z
+0x20ac8,SyncLockAudio,func,confirmed,codeview,common.obj; ?SyncLockAudio@@YGJPAUIInterruptSync@@PAX@Z
+0x20ae4,SyncTestLockAudio,func,confirmed,codeview,common.obj; ?SyncTestLockAudio@@YGJPAUIInterruptSync@@PAX@Z
+0x20af8,ProvideReciveDataN,func,confirmed,codeview,common.obj; ?ProvideReciveDataN@@YGJPAU_PCPROPERTY_REQUEST@@PAPAU_SWDS_SET_PARAM_EXT@@K@Z
+0x20b1a,ProvideSendDataN,func,confirmed,codeview,common.obj; ?ProvideSendDataN@@YGJPAU_PCPROPERTY_REQUEST@@PAPAU_SWDS_PARAM_EXT_RESULT@@K@Z
+0x20b40,ProvideReciveData,func,confirmed,codeview,common.obj; ?ProvideReciveData@@YGJPAU_PCPROPERTY_REQUEST@@PAPAU_SWDS_GET_PARAM_EXT@@@Z
+0x20b60,SendPrivateData,func,confirmed,codeview,common.obj; ?SendPrivateData@@YGJPAU_PCPROPERTY_REQUEST@@U_SWDS_BOARD_INFO@@@Z
+0x20b86,SendPrivateData_20b86,func,confirmed,codeview,common.obj; ?SendPrivateData@@YGJPAU_PCPROPERTY_REQUEST@@K@Z
+0x20baa,CMidiIn::OpenCrit,func,confirmed,codeview,midiin.obj; ?OpenCrit@CMidiIn@@QAEEXZ
+0x20bc6,CMidiIn::StartHwCrit,func,confirmed,codeview,midiin.obj; ?StartHwCrit@CMidiIn@@IAEXXZ
+0x20bd4,CMidiBase::MidiIrqOnCrit,func,confirmed,codeview,midiin.obj; ?MidiIrqOnCrit@CMidiBase@@IAEXXZ
+0x20be4,CMidiIn::StopHw,func,confirmed,codeview,midiin.obj; ?StopHw@CMidiIn@@IAEXXZ
+0x20bf2,CMidiBase::MidiIrqOff,func,confirmed,codeview,midiin.obj; ?MidiIrqOff@CMidiBase@@IAEXXZ
+0x20c02,CMidiIn::StartCrit,func,confirmed,codeview,midiin.obj; ?StartCrit@CMidiIn@@UAEEXZ
+0x20c16,CMidiIn::Stop,func,confirmed,codeview,midiin.obj; ?Stop@CMidiIn@@UAEEXZ
+0x20c34,CMidiIn::GetData,func,confirmed,codeview,midiin.obj; ?GetData@CMidiIn@@UAEKPAEH@Z
+0x20c96,CMidiIn::DeQueue,func,confirmed,codeview,midiin.obj; ?DeQueue@CMidiIn@@IAEEXZ
+0x20cae,CMidiIn::InterruptServiceRoutine,func,confirmed,codeview,midiin.obj; ?InterruptServiceRoutine@CMidiIn@@QAEEXZ
+0x20d10,"CQueueBase<uchar,0x400>::EnQueueISR",func,confirmed,codeview,midiin.obj; ?EnQueueISR@?$CQueueBase@E$0EAA@@@QAEEE@Z
+0x20d42,CMidiOut::OpenCrit,func,confirmed,codeview,midiout.obj; ?OpenCrit@CMidiOut@@QAEEXZ
+0x20d7c,CMidiOut::Clear,func,confirmed,codeview,midiout.obj; ?Clear@CMidiOut@@IAEXXZ
+0x20d9a,CMidiOut::allWriteClosed,func,confirmed,codeview,midiout.obj; ?allWriteClosed@CMidiOut@@IAEEXZ
+0x20dae,CMidiOut::PutData,func,confirmed,codeview,midiout.obj; ?PutData@CMidiOut@@UAEXPAEH@Z
+0x20e46,CMidiOut::needF5,func,confirmed,codeview,midiout.obj; ?needF5@CMidiOut@@IAEEXZ
+0x20e62,CMidiOut::sendByte,func,confirmed,codeview,midiout.obj; ?sendByte@CMidiOut@@IAEXE@Z
+0x20e94,CMidiBase::MidiIrqOn,func,confirmed,codeview,midiout.obj; ?MidiIrqOn@CMidiBase@@IAEXXZ
+0x20ea4,CMiniportTopologyDS2416::CMiniportTopologyDS2416,func,confirmed,codeview,mintopo.obj; ??0CMiniportTopologyDS2416@@QAE@PAUIUnknown@@@Z
+0x20eda,CMiniportTopologyDS2416::Release,func,confirmed,codeview,mintopo.obj; ?Release@CMiniportTopologyDS2416@@UAGKXZ
+0x20eea,CMiniportTopologyDS2416::vector_deleting_dtor,func,confirmed,codeview,mintopo.obj; ??_ECMiniportTopologyDS2416@@UAEPAXI@Z; alias ??_GCMiniportTopologyDS2416@@UAEPAXI@Z
+0x20f0a,CMiniportTopologyDS2416::PropertyHandler_YMIXControl,func,confirmed,codeview,mintopo.obj; ?PropertyHandler_YMIXControl@CMiniportTopologyDS2416@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x20f1a,CMiniportTopologyDS2416::YMIXControl,func,confirmed,codeview,mintopo.obj; ?YMIXControl@CMiniportTopologyDS2416@@QAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x21002,CMiniportTopologyDS2416::ControlSetPort1,func,confirmed,codeview,mintopo.obj; ?ControlSetPort1@CMiniportTopologyDS2416@@AAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x2102e,CMiniportTopologyDS2416::ControlReadDSP,func,confirmed,codeview,mintopo.obj; ?ControlReadDSP@CMiniportTopologyDS2416@@AAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x2105e,CMiniportTopologyDS2416::ControlWriteDSP,func,confirmed,codeview,mintopo.obj; ?ControlWriteDSP@CMiniportTopologyDS2416@@AAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x21090,CMiniportTopologyDS2416::ControlInitDSP,func,confirmed,codeview,mintopo.obj; ?ControlInitDSP@CMiniportTopologyDS2416@@AAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x210c8,CMiniportTopologyDS2416::ControlTxDSP,func,confirmed,codeview,mintopo.obj; ?ControlTxDSP@CMiniportTopologyDS2416@@AAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x21156,CMiniportTopologyDS2416::ControlCreate,func,confirmed,codeview,mintopo.obj; ?ControlCreate@CMiniportTopologyDS2416@@AAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x2118e,CMiniportTopologyDS2416::ControlClose,func,confirmed,codeview,mintopo.obj; ?ControlClose@CMiniportTopologyDS2416@@AAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x211d6,AX16ATPollThread,func,confirmed,codeview,mintopo.obj; ?AX16ATPollThread@@YGXPAX@Z
+0x212ca,CMiniportTopologyDS2416::EventHandler,func,confirmed,codeview,mintopo.obj; ?EventHandler@CMiniportTopologyDS2416@@SGJPAU_PCEVENT_REQUEST@@@Z
+0x21314,CMiniportTopologySW1000::vector_deleting_dtor,func,confirmed,codeview,mintoposw1000.obj; ??_ECMiniportTopologySW1000@@UAEPAXI@Z; alias ??_GCMiniportTopologySW1000@@UAEPAXI@Z
+0x21334,CMiniportTopologySW1000::EventHandler,func,confirmed,codeview,mintoposw1000.obj; ?EventHandler@CMiniportTopologySW1000@@SGJPAU_PCEVENT_REQUEST@@@Z
+0x213d4,CMiniportMidiUartSWXG::DataRangeIntersection,func,confirmed,codeview,minuart.obj; ?DataRangeIntersection@CMiniportMidiUartSWXG@@UAGJKPATKSDATAFORMAT@@0KPAXPAK@Z
+0x213dc,CMiniportMidiUartSWXG::vector_deleting_dtor,func,confirmed,codeview,minuart.obj; ??_ECMiniportMidiUartSWXG@@UAEPAXI@Z; alias ??_GCMiniportMidiUartSWXG@@UAEPAXI@Z
+0x213fc,CMiniportMidiStreamUartSWXG::QueryInterface,func,confirmed,codeview,minuart.obj; ?QueryInterface@CMiniportMidiStreamUartSWXG@@UAGJABU_GUID@@PAPAX@Z
+0x21414,CMiniportMidiStreamUartSWXG::vector_deleting_dtor,func,confirmed,codeview,minuart.obj; ??_ECMiniportMidiStreamUartSWXG@@UAEPAXI@Z; alias ??_GCMiniportMidiStreamUartSWXG@@UAEPAXI@Z
+0x21434,CMiniportMidiStreamUartSWXG::SetState,func,confirmed,codeview,minuart.obj; ?SetState@CMiniportMidiStreamUartSWXG@@UAGJW4KSSTATE@@@Z
+0x2147e,CMiniportMidiUartSWXG::Service,func,confirmed,codeview,minuart.obj; ?Service@CMiniportMidiUartSWXG@@UAGXXZ
+0x21482,CMiniportMidiStreamUartSWXG::Write,func,confirmed,codeview,minuart.obj; ?Write@CMiniportMidiStreamUartSWXG@@UAGJPAXKPAK@Z
+0x214be,CMiniportMidiStreamUartSWXG::Read,func,confirmed,codeview,minuart.obj; ?Read@CMiniportMidiStreamUartSWXG@@UAGJPAXKPAK@Z
+0x214f2,CMiniportMidiUartSWXG::RecordStart,func,confirmed,codeview,minuart.obj; ?RecordStart@CMiniportMidiUartSWXG@@QAEXXZ
+0x2150e,SWXGRecordStart,func,confirmed,codeview,minuart.obj; ?SWXGRecordStart@@YGJPAUIInterruptSync@@PAX@Z
+0x21524,CMiniportWaveYSWDS::vector_deleting_dtor,func,confirmed,codeview,minwave.obj; ??_ECMiniportWaveYSWDS@@UAEPAXI@Z; alias ??_GCMiniportWaveYSWDS@@UAEPAXI@Z
+0x21544,KDispatcherObject::Invalidate,func,confirmed,codeview,minwave.obj; ?Invalidate@KDispatcherObject@@QAEXXZ
+0x21576,CMiniportWaveYSWDSStream::AddRef,func,confirmed,codeview,minwave.obj; ?AddRef@CMiniportWaveYSWDSStream@@UAGKXZ
+0x21586,CMiniportWaveYSWDSStream::vector_deleting_dtor,func,confirmed,codeview,minwave.obj; ??_ECMiniportWaveYSWDSStream@@UAEPAXI@Z; alias ??_GCMiniportWaveYSWDSStream@@UAEPAXI@Z
+0x215a6,CMiniportWaveYSWDSStream::GetPosition,func,confirmed,codeview,minwave.obj; ?GetPosition@CMiniportWaveYSWDSStream@@UAGJPAK@Z
+0x215ec,CMiniportWaveYSWDSStream::NormalizePhysicalPosition,func,confirmed,codeview,minwave.obj; ?NormalizePhysicalPosition@CMiniportWaveYSWDSStream@@UAGJPA_J@Z
+0x21634,CMiniportWaveYSWDSStream::SetState,func,confirmed,codeview,minwave.obj; ?SetState@CMiniportWaveYSWDSStream@@UAGJW4KSSTATE@@@Z
+0x216c2,CMiniportWaveYSWDSStream::Silence,func,confirmed,codeview,minwave.obj; ?Silence@CMiniportWaveYSWDSStream@@UAGXPAXK@Z
+0x216e0,CPciUart::GetStatUARTISR,func,confirmed,codeview,uart.obj; ?GetStatUARTISR@CPciUart@@UAGEE@Z
+0x216f0,CPciUart::GetStatUART,func,confirmed,codeview,uart.obj; ?GetStatUART@CPciUart@@UAGEE@Z
+0x21720,CPciUart::EnableTX,func,confirmed,codeview,uart.obj; ?EnableTX@CPciUart@@UAGXE@Z
+0x21744,CPciUart::DisableTX,func,confirmed,codeview,uart.obj; ?DisableTX@CPciUart@@UAGXE@Z
+0x21768,CPciUart::EnableRX,func,confirmed,codeview,uart.obj; ?EnableRX@CPciUart@@UAGXE@Z
+0x2178c,CPciUart::DisableRX,func,confirmed,codeview,uart.obj; ?DisableRX@CPciUart@@UAGXE@Z
+0x217b0,CPciUart::InitUART,func,confirmed,codeview,uart.obj; ?InitUART@CPciUart@@UAGEPAK@Z
+0x217d6,CPciUart::InitUART_217d6,func,confirmed,codeview,uart.obj; ?InitUART@CPciUart@@UAGEPAKE@Z
+0x21836,CPciUart::_InitUART,func,confirmed,codeview,uart.obj; ?_InitUART@CPciUart@@UAGEPAKE@Z
+0x2189c,CPciUart::OpenUART_Write,func,confirmed,codeview,uart.obj; ?OpenUART_Write@CPciUart@@UAGEE@Z
+0x218dc,CPciUart::OpenUART_Read,func,confirmed,codeview,uart.obj; ?OpenUART_Read@CPciUart@@UAGEE@Z
+0x21918,CPciUart::CloseUART_Write,func,confirmed,codeview,uart.obj; ?CloseUART_Write@CPciUart@@UAGEE@Z
+0x21940,CPciUart::CloseUART_Read,func,confirmed,codeview,uart.obj; ?CloseUART_Read@CPciUart@@UAGEE@Z
+0x21968,CPciUart::_SetCmndUART,func,confirmed,codeview,uart.obj; ?_SetCmndUART@CPciUart@@IAEXEE@Z
+0x21996,CPciUart::SetCmndUART,func,confirmed,codeview,uart.obj; ?SetCmndUART@CPciUart@@UAGXEE@Z
+0x219c4,CPciUart::_GetStatUART,func,confirmed,codeview,uart.obj; ?_GetStatUART@CPciUart@@IAEEE@Z
+0x21a04,CPciUart::SetDataUARTISR,func,confirmed,codeview,uart.obj; ?SetDataUARTISR@CPciUart@@UAGXEE@Z
+0x21a2e,CPciUart::GetDataUARTISR,func,confirmed,codeview,uart.obj; ?GetDataUARTISR@CPciUart@@UAGEE@Z
+0x21a5a,CPciUart::~CPciUart,func,confirmed,codeview,uart.obj; ??1CPciUart@@UAE@XZ
+0x21a7e,CPciUart::CUartChannel::~CUartChannel,func,confirmed,codeview,uart.obj; ??1CUartChannel@CPciUart@@QAE@XZ
+0x21a94,CPciUart::IsWriteOpen,func,confirmed,codeview,uart.obj; ?IsWriteOpen@CPciUart@@UAGEE@Z
+0x21ab2,CPciUart::WaitTX,func,confirmed,codeview,uart.obj; ?WaitTX@CPciUart@@UAGXE@Z
+0x21b22,CPciUart::WaitQueueEmpty,func,confirmed,codeview,uart.obj; ?WaitQueueEmpty@CPciUart@@UAGEE@Z
+0x21b3e,CPciUart::CUartChannel::WaitQueueEmpty,func,confirmed,codeview,uart.obj; ?WaitQueueEmpty@CUartChannel@CPciUart@@QAEEXZ
+0x21b90,CPciUart::EnQueue,func,confirmed,codeview,uart.obj; ?EnQueue@CPciUart@@UAGEEE@Z
+0x21bb0,CPciUart::CUartChannel::EnQueue,func,confirmed,codeview,uart.obj; ?EnQueue@CUartChannel@CPciUart@@QAEEE@Z
+0x21c12,CPciUart::IsNeedF5,func,confirmed,codeview,uart.obj; ?IsNeedF5@CPciUart@@UAGEEE@Z
+0x21c32,CPciUart::CUartChannel::IsNeedF5,func,confirmed,codeview,uart.obj; ?IsNeedF5@CUartChannel@CPciUart@@QAEEE@Z
+0x21c4e,CPciUart::OutClear,func,confirmed,codeview,uart.obj; ?OutClear@CPciUart@@UAGXE@Z
+0x21c6a,CPciUart::CUartChannel::OutClear,func,confirmed,codeview,uart.obj; ?OutClear@CUartChannel@CPciUart@@QAEXXZ
+0x21c82,CPciUart::OutOpenCrit,func,confirmed,codeview,uart.obj; ?OutOpenCrit@CPciUart@@UAGXE@Z
+0x21ca2,CPciUart::Lock,func,confirmed,codeview,uart.obj; ?Lock@CPciUart@@UAGXE@Z
+0x21cc4,CPciUart::Unlock,func,confirmed,codeview,uart.obj; ?Unlock@CPciUart@@UAGXE@Z
+0x21ce2,CPciUart::InterruptServiceRoutineUART,func,confirmed,codeview,uart.obj; ?InterruptServiceRoutineUART@CPciUart@@UAGEE@Z
+0x21d3e,CPciUart::CUartChannel::DeQueueISR,func,confirmed,codeview,uart.obj; ?DeQueueISR@CUartChannel@CPciUart@@QAEEXZ
+0x21d56,"CQueueBase<uchar,0x2000>::EnQueue",func,confirmed,codeview,uart.obj; ?EnQueue@?$CQueueBase@E$0CAAA@@@QAEEE@Z
+0x21d88,CUnknown::CUnknown,func,confirmed,codeview,stdunk.obj; ??0CUnknown@@QAE@PAUIUnknown@@@Z
+0x21da7,CUnknown::vector_deleting_dtor,func,confirmed,codeview,stdunk.obj; ??_ECUnknown@@UAEPAXI@Z; alias ??_GCUnknown@@UAEPAXI@Z
+0x21dc3,CUnknown::~CUnknown,func,confirmed,codeview,stdunk.obj; ??1CUnknown@@UAE@XZ
+0x21dca,CUnknown::NonDelegatingAddRef,func,confirmed,codeview,stdunk.obj; ?NonDelegatingAddRef@CUnknown@@UAGKXZ
+0x21de0,CUnknown::NonDelegatingRelease,func,confirmed,codeview,stdunk.obj; ?NonDelegatingRelease@CUnknown@@UAGKXZ
+0x21e0f,CUnknown::NonDelegatingQueryInterface,func,confirmed,codeview,stdunk.obj; ?NonDelegatingQueryInterface@CUnknown@@UAGJABU_GUID@@PAPAX@Z
+0x21e6c,KeGetCurrentThread,func,confirmed,codeview,NTOSKRNL.EXE; _KeGetCurrentThread@0
+0x21e7c,_except_handler3,func,confirmed,codeview,exsup3.obj; __except_handler3
+0x21f2a,_seh_longjmp_unwind,func,confirmed,codeview,exsup3.obj; __seh_longjmp_unwind@4
+0x21f50,_allmul,func,confirmed,codeview,llmul.obj; __allmul
+0x21f90,_alldiv,func,confirmed,codeview,lldiv.obj; __alldiv
+0x2203c,_global_unwind2,func,confirmed,codeview,exsup.obj; __global_unwind2
+0x2207e,_local_unwind2,func,confirmed,codeview,exsup.obj; __local_unwind2
+0x220d8,_abnormal_termination,func,confirmed,codeview,exsup.obj; __abnormal_termination
+0x220fc,RtlUnwind,func,confirmed,codeview,NTOSKRNL.EXE; _RtlUnwind@16
+0x22102,PcInitializeAdapterDriver,func,confirmed,codeview,portcls.sys; _PcInitializeAdapterDriver@12
+0x22108,PcAddAdapterDevice,func,confirmed,codeview,portcls.sys; _PcAddAdapterDevice@20
+0x2210e,PcRegisterSubdevice,func,confirmed,codeview,portcls.sys; _PcRegisterSubdevice@12
+0x22114,PcNewMiniport,func,confirmed,codeview,portcls.sys; _PcNewMiniport@8
+0x2211a,PcNewPort,func,confirmed,codeview,portcls.sys; _PcNewPort@8
+0x22120,PcGetDeviceProperty,func,confirmed,codeview,portcls.sys; _PcGetDeviceProperty@20
+0x22126,PcRegisterPhysicalConnection,func,confirmed,codeview,portcls.sys; _PcRegisterPhysicalConnection@20
+0x2212c,PcRegisterAdapterPowerManagement,func,confirmed,codeview,portcls.sys; _PcRegisterAdapterPowerManagement@8
+0x22132,PcNewResourceSublist,func,confirmed,codeview,portcls.sys; _PcNewResourceSublist@20
+0x22138,PcGetTimeInterval,func,confirmed,codeview,portcls.sys; _PcGetTimeInterval@8
+0x2213e,PcNewInterruptSync,func,confirmed,codeview,callers 0x33829 0x35cc5; portcls.sys; _PcNewInterruptSync@20
+0x22144,PcNewRegistryKey,func,confirmed,codeview,portcls.sys; _PcNewRegistryKey@36
+0x2214a,PcNewServiceGroup,func,confirmed,codeview,portcls.sys; _PcNewServiceGroup@8
+0x22160,g_ulDebugOut,global,confirmed,codeview,adapter.obj; ?g_ulDebugOut@@3KA
+0x221bc,str_PCI_VEN_1073_DEV_,string,confirmed,analysis,"ascii ""PCI\VEN_1073&DEV_"" compared by GetPciDeviceId (17 chars)"
+0x22508,SW1000_DefaultMixerSettings,table,likely,analysis,"28 x {PCWSTR regValueName, ULONG mixerIndex 0..0x1b, ULONG default}; volumes 0xfe00, mutes 0; ctor seeds cache at CAdapterSW1000+0x6ac8 with ~default; CAdapterCommon+0xc0 points here, +0x25 = 28 (§2, U-002)"
+0x22f08,KSCATEGORY_TOPOLOGY,guid,confirmed,codeview,value {DDA54A40-1E4C-11D1-A050-405705C10000}; GUID_dda54a40_1e4c_11d1_a050_405705c10000 = ReactOS ks.h/ksmedia.h verbatim; AsioBase.obj; __GUID_dda54a40_1e4c_11d1_a050_405705c10000
+0x23530,PSCPECAddrTable,table,likely,analysis,"32 ULONG DSP0 parameter addresses (selector 0x100) indexed by channel, used by CAdapterCommon::SetPSCPEC 0x33ecc (2-word block) (§4); common.obj"
+0x235b0,RSCRECAddrTable,table,likely,analysis,"16 ULONG DSP0 parameter addresses indexed by channel, used by CAdapterCommon::SetRSCREC 0x33f02 (§4); common.obj"
+0x23dc0,dsp000,blob,confirmed,codeview,dspAsio.obj; _dsp000
+0x24f40,deq000,blob,confirmed,codeview,dspAsio.obj; _deq000
+0x25940,bcr000,blob,confirmed,codeview,dspAsio.obj; _bcr000
+0x25e40,mod000,blob,confirmed,codeview,dspAsio.obj; _mod000
+0x25f88,local000,blob,confirmed,codeview,dspAsio.obj; _local000
+0x25fa0,localc000,blob,confirmed,codeview,dspAsio.obj; _localc000
+0x25fb8,global000,blob,confirmed,codeview,dspAsio.obj; _global000
+0x25fd8,dsp30,blob,confirmed,codeview,dspAsio.obj; _dsp30
+0x25ff8,dsp000MEL,blob,confirmed,codeview,dspAsio.obj; _dsp000MEL
+0x27178,deq000MEL,blob,confirmed,codeview,dspAsio.obj; _deq000MEL
+0x27b78,bcr000MEL,blob,confirmed,codeview,dspAsio.obj; _bcr000MEL
+0x28078,mod000MEL,blob,confirmed,codeview,dspAsio.obj; _mod000MEL
+0x281c0,local000MEL,blob,confirmed,codeview,dspAsio.obj; _local000MEL
+0x281d8,localc000MEL,blob,confirmed,codeview,dspAsio.obj; _localc000MEL
+0x281f0,global000MEL,blob,confirmed,codeview,dspAsio.obj; _global000MEL
+0x28210,dsp30MEL,blob,confirmed,codeview,dspAsio.obj; _dsp30MEL
+0x28230,dsp000_16,blob,confirmed,codeview,dspAsio.obj; _dsp000_16
+0x293b0,deq000_16,blob,confirmed,codeview,dspAsio.obj; _deq000_16
+0x29db0,bcr000_16,blob,confirmed,codeview,dspAsio.obj; _bcr000_16
+0x2a2b0,mod000_16,blob,confirmed,codeview,dspAsio.obj; _mod000_16
+0x2a3f8,fgRam000_16,blob,confirmed,codeview,dspAsio.obj; _fgRam000_16
+0x2a4f8,fgTimer000_16,blob,confirmed,codeview,dspAsio.obj; _fgTimer000_16
+0x2a578,local000_16,blob,confirmed,codeview,dspAsio.obj; _local000_16
+0x2a590,localc000_16,blob,confirmed,codeview,dspAsio.obj; _localc000_16
+0x2a5a8,global000_16,blob,confirmed,codeview,dspAsio.obj; _global000_16
+0x2a5c8,dsp30_16,blob,confirmed,codeview,dspAsio.obj; _dsp30_16
+0x2a5e8,dsp000MEL_16,blob,confirmed,codeview,dspAsio.obj; _dsp000MEL_16
+0x2b768,deq000MEL_16,blob,confirmed,codeview,dspAsio.obj; _deq000MEL_16
+0x2c168,bcr000MEL_16,blob,confirmed,codeview,dspAsio.obj; _bcr000MEL_16
+0x2c668,mod000MEL_16,blob,confirmed,codeview,dspAsio.obj; _mod000MEL_16
+0x2c7b0,fgRam000MEL_16,blob,confirmed,codeview,dspAsio.obj; _fgRam000MEL_16
+0x2c8b0,fgTimer000MEL_16,blob,confirmed,codeview,dspAsio.obj; _fgTimer000MEL_16
+0x2c930,local000MEL_16,blob,confirmed,codeview,dspAsio.obj; _local000MEL_16
+0x2c948,localc000MEL_16,blob,confirmed,codeview,dspAsio.obj; _localc000MEL_16
+0x2c960,global000MEL_16,blob,confirmed,codeview,dspAsio.obj; _global000MEL_16
+0x2c980,dsp30MEL_16,blob,confirmed,codeview,dspAsio.obj; _dsp30MEL_16
+0x2d888,KSNODETYPE_SUM,guid,confirmed,codeview,value {DA441A60-C556-11D0-8A2B-00A0C9255AC1}; GUID_da441a60_c556_11d0_8a2b_00a0c9255ac1 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_da441a60_c556_11d0_8a2b_00a0c9255ac1
+0x2d898,KSAUDFNAME_MASTER_VOLUME,guid,confirmed,codeview,value {185FEDE3-9905-11D1-95A9-00C04FB925D3}; GUID_185fede3_9905_11d1_95a9_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_185fede3_9905_11d1_95a9_00c04fb925d3
+0x2d8a8,KSNODETYPE_VOLUME,guid,confirmed,codeview,value {3A5ACC00-C557-11D0-8A2B-00A0C9255AC1}; GUID_3a5acc00_c557_11d0_8a2b_00a0c9255ac1 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_3a5acc00_c557_11d0_8a2b_00a0c9255ac1
+0x2d8b8,KSAUDFNAME_RECORDING_CONTROL,guid,confirmed,codeview,value {185FEDFA-9905-11D1-95A9-00C04FB925D3}; GUID_185fedfa_9905_11d1_95a9_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_185fedfa_9905_11d1_95a9_00c04fb925d3
+0x2d8c8,KSAUDFNAME_VOLUME_CONTROL,guid,confirmed,codeview,value {185FEDF7-9905-11D1-95A9-00C04FB925D3}; GUID_185fedf7_9905_11d1_95a9_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_185fedf7_9905_11d1_95a9_00c04fb925d3
+0x2d8d8,KSNODETYPE_SPEAKER,guid,confirmed,codeview,value {DFF21CE1-F70F-11D0-B917-00A0C9223196}; GUID_dff21ce1_f70f_11d0_b917_00a0c9223196 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_dff21ce1_f70f_11d0_b917_00a0c9223196
+0x2d8e8,KSAUDFNAME_LINE_IN,guid,confirmed,codeview,value {185FEDF9-9905-11D1-95A9-00C04FB925D3}; GUID_185fedf9_9905_11d1_95a9_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_185fedf9_9905_11d1_95a9_00c04fb925d3
+0x2d8f8,KSNODETYPE_LINE_CONNECTOR,guid,confirmed,codeview,value {DFF21FE3-F70F-11D0-B917-00A0C9223196}; GUID_dff21fe3_f70f_11d0_b917_00a0c9223196 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_dff21fe3_f70f_11d0_b917_00a0c9223196
+0x2d908,KSCATEGORY_AUDIO,guid,confirmed,codeview,value {6994AD04-93EF-11D0-A3CC-00A0C9223196}; GUID_6994ad04_93ef_11d0_a3cc_00a0c9223196 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_6994ad04_93ef_11d0_a3cc_00a0c9223196
+0x2d918,KSEVENTSETID_AudioControlChange,guid,confirmed,codeview,value {E85E9698-FA2F-11D1-95BD-00C04FB925D3}; GUID_e85e9698_fa2f_11d1_95bd_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_e85e9698_fa2f_11d1_95bd_00c04fb925d3
+0x2d928,KSPROPSETID_Audio,guid,confirmed,codeview,value {45FFAAA0-6E1B-11D0-BCF2-444553540000}; GUID_45ffaaa0_6e1b_11d0_bcf2_444553540000 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_45ffaaa0_6e1b_11d0_bcf2_444553540000
+0x2d938,KSPROPTYPESETID_General,guid,confirmed,codeview,value {97E99BA0-BDEA-11CF-A5D6-28DB04C10000}; GUID_97e99ba0_bdea_11cf_a5d6_28db04c10000 = ReactOS ks.h/ksmedia.h verbatim; mintopo.obj; __GUID_97e99ba0_bdea_11cf_a5d6_28db04c10000
+0x2e318,db2VolTable,table,confirmed,codeview,mintoposw1000.obj; ?db2VolTable@@3PAEA
+0x2e418,volTable,table,confirmed,codeview,mintoposw1000.obj; ?volTable@@3PAEA
+0x2ebf8,KSAUDFNAME_LINE_MUTE,guid,confirmed,codeview,value {185FEDEC-9905-11D1-95A9-00C04FB925D3}; GUID_185fedec_9905_11d1_95a9_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; mintoposw1000.obj; __GUID_185fedec_9905_11d1_95a9_00c04fb925d3
+0x2ec08,KSAUDFNAME_MASTER_MUTE,guid,confirmed,codeview,value {185FEDE4-9905-11D1-95A9-00C04FB925D3}; GUID_185fede4_9905_11d1_95a9_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; mintoposw1000.obj; __GUID_185fede4_9905_11d1_95a9_00c04fb925d3
+0x2ec18,KSNODETYPE_MUTE,guid,confirmed,codeview,value {02B223C0-C557-11D0-8A2B-00A0C9255AC1}; GUID_02b223c0_c557_11d0_8a2b_00a0c9255ac1 = ReactOS ks.h/ksmedia.h verbatim; mintoposw1000.obj; __GUID_02b223c0_c557_11d0_8a2b_00a0c9255ac1
+0x2ec28,_GUID_185fedeb_9905_11d1_95a9_00c04fb925d3,guid,confirmed,codeview,value {185FEDEB-9905-11D1-95A9-00C04FB925D3}; 185FEDEB: KSAUDFNAME_* family; not in ReactOS ksmedia.h (between CD_MUTE EA and LINE_MUTE EC); see U-003; mintoposw1000.obj; __GUID_185fedeb_9905_11d1_95a9_00c04fb925d3
+0x2ec38,_GUID_dff21fe4_f70f_11d0_b917_00a0c9223196,guid,confirmed,codeview,"value {DFF21FE4-F70F-11D0-B917-00A0C9223196}; DFF21FE4 = DEFINE_USB_TERMINAL_GUID(0x0604), USB terminal type 0x0604 (legacy audio connector); no constant in ReactOS headers; see U-003; mintoposw1000.obj; __GUID_dff21fe4_f70f_11d0_b917_00a0c9223196"
+0x2ec48,PINNAME_YSWDSWIN1,guid,confirmed,codeview,"value {12474240-CA65-11D3-89CA-00C04F874986}; GUID_12474240_ca65_11d3_89ca_00c04f874986 = sw1000xg.inf PinNameRegistration (""Wave Out #N""); mintoposw1000.obj; __GUID_12474240_ca65_11d3_89ca_00c04f874986"
+0x2ec58,PINNAME_YSWDSWIN2,guid,confirmed,codeview,"value {12474241-CA65-11D3-89CA-00C04F874986}; GUID_12474241_ca65_11d3_89ca_00c04f874986 = sw1000xg.inf PinNameRegistration (""Wave Out #N""); mintoposw1000.obj; __GUID_12474241_ca65_11d3_89ca_00c04f874986"
+0x2ec68,PINNAME_YSWDSWIN3,guid,confirmed,codeview,"value {12474242-CA65-11D3-89CA-00C04F874986}; GUID_12474242_ca65_11d3_89ca_00c04f874986 = sw1000xg.inf PinNameRegistration (""Wave Out #N""); mintoposw1000.obj; __GUID_12474242_ca65_11d3_89ca_00c04f874986"
+0x2ec78,PINNAME_YSWDSWIN4,guid,confirmed,codeview,"value {12474243-CA65-11D3-89CA-00C04F874986}; GUID_12474243_ca65_11d3_89ca_00c04f874986 = sw1000xg.inf PinNameRegistration (""Wave Out #N""); mintoposw1000.obj; __GUID_12474243_ca65_11d3_89ca_00c04f874986"
+0x2ec88,PINNAME_YSWDSWIN5,guid,confirmed,codeview,"value {12474244-CA65-11D3-89CA-00C04F874986}; GUID_12474244_ca65_11d3_89ca_00c04f874986 = sw1000xg.inf PinNameRegistration (""Wave Out #N""); mintoposw1000.obj; __GUID_12474244_ca65_11d3_89ca_00c04f874986"
+0x2ec98,PINNAME_YSWDSWIN6,guid,confirmed,codeview,"value {12474245-CA65-11D3-89CA-00C04F874986}; GUID_12474245_ca65_11d3_89ca_00c04f874986 = sw1000xg.inf PinNameRegistration (""Wave Out #N""); mintoposw1000.obj; __GUID_12474245_ca65_11d3_89ca_00c04f874986"
+0x2ee78,MiniportPinsExternalRender,table,confirmed,codeview,minuart.obj; ?MiniportPinsExternalRender@@3PAUPCPIN_DESCRIPTOR@@A
+0x2eef8,MiniportPinsExternalCapture,table,confirmed,codeview,minuart.obj; ?MiniportPinsExternalCapture@@3PAUPCPIN_DESCRIPTOR@@A
+0x2f038,MidiSubdeviceTable,table,likely,analysis,"5 x 0x1c {CLSID, PCWSTR name, descriptor*, flags(1 render/0x100 capture)}: SWXG1-3, MIDIOUT, MIDIIN (§2)"
+0x2f5e0,KSAUDFNAME_MIDI,guid,confirmed,codeview,value {185FEDF8-9905-11D1-95A9-00C04FB925D3}; GUID_185fedf8_9905_11d1_95a9_00c04fb925d3 = ReactOS ks.h/ksmedia.h verbatim; minuart.obj; __GUID_185fedf8_9905_11d1_95a9_00c04fb925d3
+0x2fb38,WaveSubdeviceTable,table,likely,analysis,"11 x 0x1c {CLSID, PCWSTR name, descriptor*, flags}: WAVEOUT1-8, WAVEIN1-3 (§2)"
+0x30348,KSNODETYPE_DAC,guid,confirmed,codeview,value {507AE360-C554-11D0-8A2B-00A0C9255AC1}; GUID_507ae360_c554_11d0_8a2b_00a0c9255ac1 = ReactOS ks.h/ksmedia.h verbatim; minwave.obj; __GUID_507ae360_c554_11d0_8a2b_00a0c9255ac1
+0x30358,KSNODETYPE_ADC,guid,confirmed,codeview,value {4D837FE0-C555-11D0-8A2B-00A0C9255AC1}; GUID_4d837fe0_c555_11d0_8a2b_00a0c9255ac1 = ReactOS ks.h/ksmedia.h verbatim; minwave.obj; __GUID_4d837fe0_c555_11d0_8a2b_00a0c9255ac1
+0x30368,PINNAME_CAPTURE,guid,confirmed,codeview,value {FB6C4281-0353-11D1-905F-0000C0CC16BA}; GUID_fb6c4281_0353_11d1_905f_0000c0cc16ba = ReactOS ks.h/ksmedia.h verbatim; minwave.obj; __GUID_fb6c4281_0353_11d1_905f_0000c0cc16ba
+0x30378,KSDATAFORMAT_SPECIFIER_WAVEFORMATEX,guid,likely,codeview,value {05589F81-C356-11CE-BF01-00AA0055595A}; GUID_05589f81_c356_11ce_bf01_00aa0055595a = well-known SDK constant (not re-verified); minwave.obj; __GUID_05589f81_c356_11ce_bf01_00aa0055595a
+0x30388,KSDATAFORMAT_SUBTYPE_PCM,guid,likely,codeview,value {00000001-0000-0010-8000-00AA00389B71}; GUID_00000001_0000_0010_8000_00aa00389b71 = well-known SDK constant (not re-verified); minwave.obj; __GUID_00000001_0000_0010_8000_00aa00389b71
+0x30398,KSDATAFORMAT_TYPE_AUDIO,guid,likely,codeview,value {73647561-0000-0010-8000-00AA00389B71}; GUID_73647561_0000_0010_8000_00aa00389b71 = well-known SDK constant (not re-verified); minwave.obj; __GUID_73647561_0000_0010_8000_00aa00389b71
+0x303a8,KSDATAFORMAT_SPECIFIER_NONE,guid,confirmed,codeview,value {0F6417D6-C318-11D0-A43F-00A0C9223196}; GUID_0f6417d6_c318_11d0_a43f_00a0c9223196 = ReactOS ks.h/ksmedia.h verbatim; minwave.obj; __GUID_0f6417d6_c318_11d0_a43f_00a0c9223196
+0x303b8,KSDATAFORMAT_SPECIFIER_DSOUND,guid,confirmed,codeview,value {518590A2-A184-11D0-8522-00C04FD9BAF3}; GUID_518590a2_a184_11d0_8522_00c04fd9baf3 = ReactOS ks.h/ksmedia.h verbatim; minwave.obj; __GUID_518590a2_a184_11d0_8522_00c04fd9baf3
+0x30514,globalReg,table,confirmed,codeview,5 pointers -> n1greg0..n1greg4 (confirmed); yswds_const.obj; ?globalReg@@3PAPBFA
+0x30528,TblMprPtr_DS2416,table,confirmed,codeview,"5 MPR sets x 11 table pointers (confirmed); differs from SW1000 only in set0 (bcr1, n1creg0C); yswds_const.obj; ?TblMprPtr_DS2416@@3PAY0L@PBJA"
+0x30604,TblMprPtr_SW1000,table,confirmed,codeview,"5 MPR sets x 11 table pointers (confirmed): bcr,deqc,deqm,dspc,dspa,dspm[0],dspm[1],mod,creg,fgtim,fguram; set0 uses bcr1MEL/n1creg0CMEL; yswds_const.obj; ?TblMprPtr_SW1000@@3PAY0L@PBJA"
+0x306e0,GUID_NULL,guid,likely,codeview,value {00000000-0000-0000-0000-000000000000}; GUID_00000000_0000_0000_0000_000000000000 = well-known SDK constant (not re-verified); adapter.obj; __GUID_00000000_0000_0000_0000_000000000000
+0x30720,fgRam000,blob,confirmed,codeview,dspAsio.obj; _fgRam000
+0x30820,fgTimer000,blob,confirmed,codeview,dspAsio.obj; _fgTimer000
+0x308a0,fgRam000MEL,blob,confirmed,codeview,dspAsio.obj; _fgRam000MEL
+0x309a0,fgTimer000MEL,blob,confirmed,codeview,dspAsio.obj; _fgTimer000MEL
+0x30a30,SW1000_TOPOLOGY_NODE_IDX,global,confirmed,codeview,mintoposw1000.obj; ?SW1000_TOPOLOGY_NODE_IDX@@3W4__unnamed@@A
+0x30a34,CPciUart::WaitIrq::dummy,global,confirmed,codeview,uart.obj; ?dummy@?1??WaitIrq@CPciUart@@IAEXXZ@4HA
+0x30a40,AddDevice,func,confirmed,codeview,"PcAddAdapterDevice(MaxObjects=20, DevExt=0x104); not a Ghidra function (only referenced as data); _AddDevice@8; adapter.obj; adapter.obj; _AddDevice@8"
+0x30a5c,InstallSubdevice,func,confirmed,codeview,adapter.obj; ?InstallSubdevice@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAGABU_GUID@@3P6GJPAPAUIUnknown@@3PAU4@W4_POOL_TYPE@@@Z5PAUIResourceList@@344@Z
+0x30b2c,StartDevice,func,confirmed,codeview,adapter.obj; ?StartDevice@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAUIResourceList@@@Z
+0x30b6e,GetPciDeviceId,func,likely,analysis,"reads DevicePropertyHardwareID, compares ""PCI\VEN_1073&DEV_"", parses device ID (§2); was unnamed_30b6e; function entry found by Ghidra; no public symbol (file-static); adapter.obj; called from StartDevice (0x30b37); name TBD"
+0x30c32,HexStrToInt,func,likely,analysis,parses hex digits until non-hex (§2); was unnamed_30c32; function entry found by Ghidra; no public symbol (file-static); adapter.obj; called from unnamed_30b6e (0x30c03); name TBD
+0x30c7c,DS2416_StartDevice,func,likely,analysis,StartDevice branch for DEV 0x2000-0x2003 (§2); was unnamed_30c7c; function entry found by Ghidra; no public symbol (file-static); adapter.obj; called from StartDevice (0x30b55); name TBD
+0x30eec,SW1000_StartDevice,func,likely,analysis,StartDevice branch for all other IDs; installs SW1000 subdevices (§2); was unnamed_30eec; function entry found by Ghidra; no public symbol (file-static); adapter.obj; called from StartDevice (0x30b65); name TBD
+0x311de,DS2416_AssignResources,func,confirmed,codeview,adapter.obj; ?DS2416_AssignResources@@YGJPAUIResourceList@@PAPAU1@QAPAU1@1@Z
+0x312d2,SW1000_AssignResources,func,confirmed,codeview,adapter.obj; ?SW1000_AssignResources@@YGJPAUIResourceList@@PAPAU1@QAPAU1@21@Z
+0x3142a,NewAdapterDS2416,func,confirmed,codeview,adapterDS2416.obj; ?NewAdapterDS2416@@YGJPAPAUIUnknown@@ABU_GUID@@PAU1@W4_POOL_TYPE@@@Z
+0x3147c,CAdapterDS2416::CAdapterDS2416,func,confirmed,codeview,adapterDS2416.obj; ??0CAdapterDS2416@@QAE@PAUIUnknown@@@Z
+0x314e2,CAdapterDS2416::vector_deleting_dtor,func,confirmed,codeview,adapterDS2416.obj; ??_ECAdapterDS2416@@UAEPAXI@Z; alias ??_GCAdapterDS2416@@UAEPAXI@Z
+0x31502,CAdapterDS2416::~CAdapterDS2416,func,confirmed,codeview,adapterDS2416.obj; ??1CAdapterDS2416@@UAE@XZ
+0x3151c,CAdapterDS2416::ResetController,func,confirmed,codeview,adapterDS2416.obj; ?ResetController@CAdapterDS2416@@UAGJXZ
+0x3153c,CAdapterDS2416::initMpr,func,confirmed,codeview,adapterDS2416.obj; ?initMpr@CAdapterDS2416@@EAEXH@Z
+0x3156e,CAdapterDS2416::SendCESCR,func,confirmed,codeview,adapterDS2416.obj; ?SendCESCR@CAdapterDS2416@@EAEXXZ
+0x31586,CAdapterDS2416::GetDSP3Record,func,confirmed,codeview,adapterDS2416.obj; ?GetDSP3Record@CAdapterDS2416@@EAEPAUDSP3Record@@G@Z
+0x3159c,CAdapterDS2416::ExitDSPAsioCore,func,confirmed,codeview,adapterDS2416.obj; ?ExitDSPAsioCore@CAdapterDS2416@@EAEXXZ
+0x315cc,CAdapterDS2416::GetMpr16LocalRegister,func,confirmed,codeview,adapterDS2416.obj; ?GetMpr16LocalRegister@CAdapterDS2416@@EAEPAULocalRecord@@XZ
+0x315d2,CAdapterDS2416::SetPreRecMode,func,confirmed,codeview,adapterDS2416.obj; ?SetPreRecMode@CAdapterDS2416@@EAEXKHPAK@Z
+0x315f4,dB2ParmMVolDS2416,func,confirmed,codeview,adapterDS2416.obj; ?dB2ParmMVolDS2416@@YGKJ@Z
+0x3163e,CAdapterDS2416::MixerRegWriteCore,func,confirmed,codeview,adapterDS2416.obj; ?MixerRegWriteCore@CAdapterDS2416@@MAEXEK@Z
+0x31686,CAdapterDS2416::SetupAsio,func,confirmed,codeview,adapterDS2416.obj; ?SetupAsio@CAdapterDS2416@@UAGXXZ
+0x316ac,CAdapterDS2416::PowerChangeState,func,confirmed,codeview,adapterDS2416.obj; ?PowerChangeState@CAdapterDS2416@@UAGXT_POWER_STATE@@@Z
+0x316bc,NewAdapterSW1000,func,confirmed,codeview,AdapterSW1000.obj; ?NewAdapterSW1000@@YGJPAPAUIUnknown@@ABU_GUID@@PAU1@W4_POOL_TYPE@@@Z
+0x31714,CAdapterSW1000::CAdapterSW1000,func,confirmed,codeview,AdapterSW1000.obj; ??0CAdapterSW1000@@QAE@PAUIUnknown@@@Z
+0x317ee,CAdapterSW1000::vector_deleting_dtor_317ee,func,confirmed,codeview,AdapterSW1000.obj; ??_ECAdapterSW1000@@UAEPAXI@Z; alias ??_GCAdapterSW1000@@UAEPAXI@Z
+0x3180e,CAdapterSW1000::~CAdapterSW1000,func,confirmed,codeview,AdapterSW1000.obj; ??1CAdapterSW1000@@UAE@XZ
+0x318aa,CAdapterSW1000::initMpr,func,confirmed,codeview,AdapterSW1000.obj; ?initMpr@CAdapterSW1000@@EAEXH@Z
+0x318ba,CAdapterSW1000::SendCESCR,func,confirmed,codeview,AdapterSW1000.obj; ?SendCESCR@CAdapterSW1000@@EAEXXZ
+0x318d2,CAdapterSW1000::GetDSP3Record,func,confirmed,codeview,AdapterSW1000.obj; ?GetDSP3Record@CAdapterSW1000@@EAEPAUDSP3Record@@G@Z
+0x318e8,CAdapterSW1000::ExitDSPAsioCore,func,confirmed,codeview,AdapterSW1000.obj; ?ExitDSPAsioCore@CAdapterSW1000@@EAEXXZ
+0x318f0,CAdapterSW1000::GetMpr16LocalRegister,func,confirmed,codeview,AdapterSW1000.obj; ?GetMpr16LocalRegister@CAdapterSW1000@@EAEPAULocalRecord@@XZ
+0x318f6,CAdapterSW1000::SetPreRecMode,func,confirmed,codeview,AdapterSW1000.obj; ?SetPreRecMode@CAdapterSW1000@@EAEXKHPAK@Z
+0x319be,CAdapterSW1000::NonDelegatingQueryInterface,func,confirmed,codeview,AdapterSW1000.obj; ?NonDelegatingQueryInterface@CAdapterSW1000@@UAGJABU_GUID@@PAPAX@Z
+0x31af6,CAdapterSW1000::Init,func,confirmed,codeview,AdapterSW1000.obj; ?Init@CAdapterSW1000@@UAGJPAUIResourceList@@PAU_DEVICE_OBJECT@@@Z
+0x31bf6,CAdapterSW1000::InitializeHardware,func,confirmed,codeview,AdapterSW1000.obj; ?InitializeHardware@CAdapterSW1000@@QAEJPAUIInterruptSync@@@Z
+0x31c2e,CAdapterSW1000::SetMasterMute,func,confirmed,codeview,AdapterSW1000.obj; ?SetMasterMute@CAdapterSW1000@@IAEXH@Z
+0x31c50,CAdapterSW1000::SetWodMute,func,confirmed,codeview,AdapterSW1000.obj; ?SetWodMute@CAdapterSW1000@@IAEXHH@Z
+0x31cb0,CAdapterSW1000::SetWidMute,func,confirmed,codeview,AdapterSW1000.obj; ?SetWidMute@CAdapterSW1000@@IAEXHH@Z
+0x31d0e,CAdapterSW1000::SetMasterVolume,func,confirmed,codeview,AdapterSW1000.obj; ?SetMasterVolume@CAdapterSW1000@@IAEXGG@Z
+0x31d7a,CAdapterSW1000::SetWodVolume,func,confirmed,codeview,AdapterSW1000.obj; ?SetWodVolume@CAdapterSW1000@@IAEXHGG@Z
+0x31e1a,CAdapterSW1000::SetWidVolume,func,confirmed,codeview,AdapterSW1000.obj; ?SetWidVolume@CAdapterSW1000@@IAEXHGG@Z
+0x31ea8,CAdapterSW1000::GetWidPeakIoCtrl,func,confirmed,codeview,AdapterSW1000.obj; ?GetWidPeakIoCtrl@CAdapterSW1000@@QAEKK@Z
+0x31f1a,CAdapterSW1000::SendData,func,confirmed,codeview,AdapterSW1000.obj; ?SendData@CAdapterSW1000@@UAGXEPAEK@Z
+0x31f42,CAdapterSW1000::WaitH8,func,confirmed,codeview,AdapterSW1000.obj; ?WaitH8@CAdapterSW1000@@UAGXXZ
+0x31faa,CAdapterSW1000::SetupAsio,func,confirmed,codeview,AdapterSW1000.obj; ?SetupAsio@CAdapterSW1000@@UAGXXZ
+0x31ff4,CAdapterSW1000::FixupAsio,func,confirmed,codeview,AdapterSW1000.obj; ?FixupAsio@CAdapterSW1000@@UAGXXZ
+0x32020,CAdapterSW1000::MixerRegWriteCore,func,confirmed,codeview,AdapterSW1000.obj; ?MixerRegWriteCore@CAdapterSW1000@@MAEXEK@Z
+0x32120,CAdapterSW1000::PowerChangeState,func,confirmed,codeview,AdapterSW1000.obj; ?PowerChangeState@CAdapterSW1000@@UAGXT_POWER_STATE@@@Z
+0x321e4,CAsioChInfoBase::AllocateUserSpaceThisBuffer,func,confirmed,codeview,AsioBase.obj; ?AllocateUserSpaceThisBuffer@CAsioChInfoBase@@QAEJXZ
+0x3221e,unnamed_3221e,func,confirmed,ghidra,"function entry found by Ghidra; no public symbol (file-static); AsioBase.obj; called from 0x32214, 0x322ac (CAsioChInfoBase/CAsioBase user-space alloc); name TBD"
+0x3226e,CAsioChInfoBase::FreeUserSpaceThisBuffer,func,confirmed,codeview,AsioBase.obj; ?FreeUserSpaceThisBuffer@CAsioChInfoBase@@QAEJXZ
+0x3229c,CAsioBase::AllocateUserSpace,func,confirmed,codeview,AsioBase.obj; ?AllocateUserSpace@CAsioBase@@KGJPAXKPAPAU_MDL@@PAPAX@Z
+0x322b4,CAsioBase::FreeUserSpace,func,confirmed,codeview,AsioBase.obj; ?FreeUserSpace@CAsioBase@@KGJPAU_MDL@@PAX@Z
+0x322de,CAsioBase::Control,func,confirmed,codeview,AsioBase.obj; ?Control@CAsioBase@@QAEKKK@Z
+0x323a4,CAsioBase::GetControlDataSize,func,confirmed,codeview,AsioBase.obj; ?GetControlDataSize@CAsioBase@@UAEKK@Z
+0x323de,CAsioBase::InitializeEvent,func,confirmed,codeview,AsioBase.obj; ?InitializeEvent@CAsioBase@@QAEXPBG@Z
+0x3240e,CAsioBase::CreateEvent,func,confirmed,codeview,AsioBase.obj; ?CreateEvent@CAsioBase@@IAEXXZ
+0x32438,CAsioBase::SetUserThreadPriorityHigh,func,confirmed,codeview,AsioBase.obj; ?SetUserThreadPriorityHigh@CAsioBase@@IAEXXZ
+0x3245a,CAsioBase::ResetUserThreadPriority,func,confirmed,codeview,AsioBase.obj; ?ResetUserThreadPriority@CAsioBase@@IAEXXZ
+0x3246a,CAsioBase::GetAdapterInstance,func,confirmed,codeview,AsioBase.obj; ?GetAdapterInstance@CAsioBase@@IAEXQBQAGKABU_GUID@@QAPAUIAdapterCommon@@K@Z
+0x32572,CAsioBase::ReleaseAdapterInstance,func,confirmed,codeview,AsioBase.obj; ?ReleaseAdapterInstance@CAsioBase@@IAEXQAPAUIAdapterCommon@@K@Z
+0x3259a,CAsioBase::DumpMessagePost,func,confirmed,codeview,AsioBase.obj; ?DumpMessagePost@CAsioBase@@KGXKK@Z
+0x3259e,CAsioChInfo::Dump,func,confirmed,codeview,AsioSWDS.obj; ?Dump@CAsioChInfo@@QAEXXZ
+0x325a0,CAsioSWDS::FindChannel,func,confirmed,codeview,AsioSWDS.obj; ?FindChannel@CAsioSWDS@@IAEPAVCAsioChInfo@@EKH@Z
+0x32622,CAsioSWDS::ScanHard,func,confirmed,codeview,AsioSWDS.obj; ?ScanHard@CAsioSWDS@@IAEHPAHH@Z
+0x32822,CAsioSWDS::New,func,confirmed,codeview,AsioSWDS.obj; ?New@CAsioSWDS@@MAEKPAU_SwxgAsioInfo@@@Z
+0x329d0,CAsioSWDS::Destroy,func,confirmed,codeview,AsioSWDS.obj; ?Destroy@CAsioSWDS@@MAEKPAU_SwxgAsioDestroyInfo@@@Z
+0x32b0c,CAsioSWDS::Init,func,confirmed,codeview,AsioSWDS.obj; ?Init@CAsioSWDS@@MAEKPAU_SwxgAsioInitInfo@@@Z
+0x32cd8,CAsioSWDS::Open,func,confirmed,codeview,AsioSWDS.obj; ?Open@CAsioSWDS@@MAEKPAU_SwxgAsioOpenDesc@@@Z
+0x32dc0,CAsioSWDS::Close,func,confirmed,codeview,AsioSWDS.obj; ?Close@CAsioSWDS@@MAEKXZ
+0x32e54,CAsioSWDS::asioBufferClear,func,confirmed,codeview,AsioSWDS.obj; ?asioBufferClear@CAsioSWDS@@IAEXXZ
+0x330e4,CAsioSWDS::Start,func,confirmed,codeview,AsioSWDS.obj; ?Start@CAsioSWDS@@MAEKXZ
+0x33550,CAsioSWDS::Stop,func,confirmed,codeview,AsioSWDS.obj; ?Stop@CAsioSWDS@@MAEKXZ
+0x336ca,CAsioSWDS::SetCB,func,confirmed,codeview,AsioSWDS.obj; ?SetCB@CAsioSWDS@@MAEKPAU_SwxgAsioCBDesc@@@Z
+0x336e2,CAdapterCommon::Init,func,confirmed,codeview,needs 1 mem + 1 IRQ resource; MmMapIoSpace non-cached -> this+0x164; PcNewInterruptSync; creates SWDS_ASIO_EVENT; common.obj; ?Init@CAdapterCommon@@UAGJPAUIResourceList@@PAU_DEVICE_OBJECT@@@Z
+0x3388e,InitChannelInfo,func,likely,analysis,"builds 0x44-byte per-channel records: play bit=idx, rec bit=idx+16 (§2); was unnamed_3388e; function entry found by Ghidra; no public symbol (file-static); common.obj; called from CAdapterCommon::Init (0x33775, 0x337a2); name TBD"
+0x338e4,CAdapterCommon::~CAdapterCommon,func,confirmed,codeview,common.obj; ??1CAdapterCommon@@UAE@XZ
+0x33996,CAdapterCommon::NonDelegatingQueryInterface,func,confirmed,codeview,common.obj; ?NonDelegatingQueryInterface@CAdapterCommon@@UAGJABU_GUID@@PAPAX@Z
+0x33a56,CAdapterCommon::GetInterruptSync,func,confirmed,codeview,common.obj; ?GetInterruptSync@CAdapterCommon@@UAGPAUIInterruptSync@@XZ
+0x33a64,CAdapterCommon::WaveStart,func,confirmed,codeview,common.obj; ?WaveStart@CAdapterCommon@@UAGJHK@Z
+0x33aee,CAdapterCommon::WaveStop,func,confirmed,codeview,common.obj; ?WaveStop@CAdapterCommon@@UAGJHK@Z
+0x33b66,CAdapterCommon::WavePause,func,confirmed,codeview,common.obj; ?WavePause@CAdapterCommon@@UAGJHK@Z
+0x33bdc,CAdapterCommon::SetPlayMode,func,confirmed,codeview,common.obj; ?SetPlayMode@CAdapterCommon@@UAGXKKH@Z
+0x33d6a,CAdapterCommon::SetRecMode,func,confirmed,codeview,common.obj; ?SetRecMode@CAdapterCommon@@UAGXKKH@Z
+0x33ecc,CAdapterCommon::SetPSCPEC,func,confirmed,codeview,common.obj; ?SetPSCPEC@CAdapterCommon@@UAGXKKK@Z
+0x33f02,CAdapterCommon::SetRSCREC,func,confirmed,codeview,common.obj; ?SetRSCREC@CAdapterCommon@@UAGXKKK@Z
+0x33f38,CAdapterCommon::initGreg,func,confirmed,codeview,common.obj; ?initGreg@CAdapterCommon@@QAEXXZ
+0x33f5c,CAdapterCommon::initMprDsp,func,confirmed,codeview,common.obj; ?initMprDsp@CAdapterCommon@@QAEXQAY0L@PBJG@Z
+0x33f94,CAdapterCommon::InitDSP,func,confirmed,codeview,PORT0=0x80; PORT1=0x11a18000; stall 10ms; dspInitMprOnly(1); PORT1=0xd1a18000; set_sub_code (§5); common.obj; ?InitDSP@CAdapterCommon@@MAEXXZ
+0x34008,CAdapterCommon::dspInitMprOnly,func,confirmed,codeview,"cold-start DSP sequence: reset pulse 44us, greg, KeyOn, MPR set 0, KeyOnOff, CESCR, TRWF/TRWFO=0, unmute, run (§5); common.obj; ?dspInitMprOnly@CAdapterCommon@@MAEXH@Z"
+0x34116,CAdapterCommon::initAsio,func,confirmed,codeview,common.obj; ?initAsio@CAdapterCommon@@AAEXPAUDSP3Record@@H@Z
+0x34316,CAdapterCommon::InitDSPAsio,func,confirmed,codeview,common.obj; ?InitDSPAsio@CAdapterCommon@@UAGXG@Z
+0x343be,CAdapterCommon::ExitDSPAsio,func,confirmed,codeview,common.obj; ?ExitDSPAsio@CAdapterCommon@@UAGXXZ
+0x343ce,CAdapterCommon::WaveInSyncStandby,func,confirmed,codeview,common.obj; ?WaveInSyncStandby@CAdapterCommon@@AAEKJ@Z
+0x3441e,CAdapterCommon::WaveInSyncStart,func,confirmed,codeview,common.obj; ?WaveInSyncStart@CAdapterCommon@@AAEXK@Z
+0x344a4,CAdapterCommon::startREC,func,confirmed,codeview,common.obj; ?startREC@CAdapterCommon@@AAEXPAU_WaveInfo@@K@Z
+0x344f6,CAdapterCommon::playStart,func,confirmed,codeview,common.obj; ?playStart@CAdapterCommon@@AAEXPAU_WaveInfo@@@Z
+0x3459a,CAdapterCommon::WaveOutSyncStandby,func,confirmed,codeview,common.obj; ?WaveOutSyncStandby@CAdapterCommon@@AAEKJ@Z
+0x3462e,CAdapterCommon::waitTRWFO,func,confirmed,codeview,common.obj; ?waitTRWFO@CAdapterCommon@@AAEXPAU_WaveInfo@@@Z
+0x3465c,CAdapterCommon::startTX,func,confirmed,codeview,common.obj; ?startTX@CAdapterCommon@@AAEXPAU_WaveInfo@@@Z
+0x34682,CAdapterCommon::WaveOutSyncStart,func,confirmed,codeview,common.obj; ?WaveOutSyncStart@CAdapterCommon@@AAEXK@Z
+0x34712,CAdapterCommon::playStop,func,confirmed,codeview,common.obj; ?playStop@CAdapterCommon@@QAEHPAU_WaveInfo@@@Z
+0x34786,CAdapterCommon::recStart,func,confirmed,codeview,common.obj; ?recStart@CAdapterCommon@@AAEXPAU_WaveInfo@@@Z
+0x34834,CAdapterCommon::recStop,func,confirmed,codeview,common.obj; ?recStop@CAdapterCommon@@QAEHPAU_WaveInfo@@@Z
+0x34886,CAdapterCommon::SetWaveCommonBuffer,func,confirmed,codeview,common.obj; ?SetWaveCommonBuffer@CAdapterCommon@@UAGXET_LARGE_INTEGER@@PAXK@Z
+0x348bc,CAdapterCommon::GetWaveCommonBuffer,func,confirmed,codeview,common.obj; ?GetWaveCommonBuffer@CAdapterCommon@@UAGXEPAT_LARGE_INTEGER@@PAPAXPAK@Z
+0x348fa,CAdapterCommon::SetASIOIrq,func,confirmed,codeview,common.obj; ?SetASIOIrq@CAdapterCommon@@UAGXPAX@Z
+0x3490c,CAdapterCommon::ScrWaitFunc,func,confirmed,codeview,common.obj; ?ScrWaitFunc@CAdapterCommon@@UAGXXZ
+0x3493a,CMidiOut::SendData,func,confirmed,codeview,midiout.obj; ?SendData@CMidiOut@@QAEXPAEK@Z
+0x349ee,CreateMiniportTopologyDS2416,func,confirmed,codeview,mintopo.obj; ?CreateMiniportTopologyDS2416@@YGJPAPAUIUnknown@@ABU_GUID@@PAU1@W4_POOL_TYPE@@@Z
+0x34a3c,CMiniportTopologyDS2416::ProcessResources,func,confirmed,codeview,mintopo.obj; ?ProcessResources@CMiniportTopologyDS2416@@AAEJPAUIResourceList@@@Z
+0x34a6e,CMiniportTopologyDS2416::~CMiniportTopologyDS2416,func,confirmed,codeview,mintopo.obj; ??1CMiniportTopologyDS2416@@UAE@XZ
+0x34aee,CMiniportTopologyDS2416::Init,func,confirmed,codeview,mintopo.obj; ?Init@CMiniportTopologyDS2416@@UAGJPAUIUnknown@@PAUIResourceList@@PAUIPortTopology@@@Z
+0x34b8e,CMiniportTopologyDS2416::GetDescription,func,confirmed,codeview,mintopo.obj; ?GetDescription@CMiniportTopologyDS2416@@UAGJPAPAUPCFILTER_DESCRIPTOR@@@Z
+0x34b9e,CMiniportTopologyDS2416::PropertyHandler_Level,func,confirmed,codeview,mintopo.obj; ?PropertyHandler_Level@CMiniportTopologyDS2416@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x34d08,unnamed_34d08,func,confirmed,ghidra,function entry found by Ghidra; no public symbol (file-static); mintopo.obj; called from CMiniportTopologyDS2416::PropertyHandler_Level (0x34cf5); name TBD
+0x34daa,CMiniportTopologyDS2416::PropertyHandler_SuperMixTable,func,confirmed,codeview,mintopo.obj; ?PropertyHandler_SuperMixTable@CMiniportTopologyDS2416@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x34db2,CMiniportTopologyDS2416::PropertyHandler_CpuResources,func,confirmed,codeview,mintopo.obj; ?PropertyHandler_CpuResources@CMiniportTopologyDS2416@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x34e40,CMiniportTopologyDS2416::ServiceEvent,func,confirmed,codeview,mintopo.obj; ?ServiceEvent@CMiniportTopologyDS2416@@AAEXK@Z
+0x34e5e,CreateMiniportTopologySW1000,func,confirmed,codeview,mintoposw1000.obj; ?CreateMiniportTopologySW1000@@YGJPAPAUIUnknown@@ABU_GUID@@PAU1@W4_POOL_TYPE@@@Z
+0x34ebe,CMiniportTopologySW1000::ProcessResources,func,confirmed,codeview,mintoposw1000.obj; ?ProcessResources@CMiniportTopologySW1000@@MAEJPAUIResourceList@@@Z
+0x34f16,CMiniportTopologySW1000::NonDelegatingQueryInterface,func,confirmed,codeview,mintoposw1000.obj; ?NonDelegatingQueryInterface@CMiniportTopologySW1000@@UAGJABU_GUID@@PAPAX@Z
+0x34fc4,CMiniportTopologySW1000::~CMiniportTopologySW1000,func,confirmed,codeview,mintoposw1000.obj; ??1CMiniportTopologySW1000@@UAE@XZ
+0x35018,CMiniportTopologySW1000::InitControlValueCache,func,confirmed,codeview,mintoposw1000.obj; ?InitControlValueCache@CMiniportTopologySW1000@@QAEXXZ
+0x3508a,CMiniportTopologySW1000::Init,func,confirmed,codeview,mintoposw1000.obj; ?Init@CMiniportTopologySW1000@@UAGJPAUIUnknown@@PAUIResourceList@@PAUIPortTopology@@@Z
+0x35114,CMiniportTopologySW1000::GetDescription,func,confirmed,codeview,mintoposw1000.obj; ?GetDescription@CMiniportTopologySW1000@@UAGJPAPAUPCFILTER_DESCRIPTOR@@@Z
+0x35124,CMiniportTopologySW1000::PropertyHandler_OnOff,func,confirmed,codeview,mintoposw1000.obj; ?PropertyHandler_OnOff@CMiniportTopologySW1000@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x352c8,BasicSupportHandler,func,confirmed,codeview,mintoposw1000.obj; ?BasicSupportHandler@@YGJPAU_PCPROPERTY_REQUEST@@@Z
+0x3536a,CMiniportTopologySW1000::PropertyHandler_Level,func,confirmed,codeview,mintoposw1000.obj; ?PropertyHandler_Level@CMiniportTopologySW1000@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x35530,CMiniportTopologySW1000::PropertyHandler_CpuResources,func,confirmed,codeview,mintoposw1000.obj; ?PropertyHandler_CpuResources@CMiniportTopologySW1000@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x355bc,CMiniportTopologySW1000::ReadBitsFromMixer,func,confirmed,codeview,mintoposw1000.obj; ?ReadBitsFromMixer@CMiniportTopologySW1000@@MAEKEEE@Z
+0x355e0,CMiniportTopologySW1000::WriteBitsToMixer,func,confirmed,codeview,mintoposw1000.obj; ?WriteBitsToMixer@CMiniportTopologySW1000@@MAEXEEEK@Z
+0x35636,CMiniportTopologySW1000::PropertyHandler_SWXGControl,func,confirmed,codeview,mintoposw1000.obj; ?PropertyHandler_SWXGControl@CMiniportTopologySW1000@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x35646,CMiniportTopologySW1000::SWXGControl,func,confirmed,codeview,mintoposw1000.obj; ?SWXGControl@CMiniportTopologySW1000@@QAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x3573a,CMiniportTopologySW1000::PropertyHandler_SWDSControl,func,confirmed,codeview,mintoposw1000.obj; ?PropertyHandler_SWDSControl@CMiniportTopologySW1000@@SGJPAU_PCPROPERTY_REQUEST@@@Z
+0x3575c,CMiniportTopologySW1000::ControlSetNRes,func,confirmed,codeview,mintoposw1000.obj; ?ControlSetNRes@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x35798,CMiniportTopologySW1000::ControlSetFSLClr,func,confirmed,codeview,mintoposw1000.obj; ?ControlSetFSLClr@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x357d4,CMiniportTopologySW1000::ControlGetPort0,func,confirmed,codeview,mintoposw1000.obj; ?ControlGetPort0@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x357ee,CMiniportTopologySW1000::ControlSetPort0,func,confirmed,codeview,mintoposw1000.obj; ?ControlSetPort0@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x3581a,CMiniportTopologySW1000::ControlGetPort1,func,confirmed,codeview,mintoposw1000.obj; ?ControlGetPort1@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x35834,CMiniportTopologySW1000::ControlSetPort1,func,confirmed,codeview,mintoposw1000.obj; ?ControlSetPort1@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x35860,CMiniportTopologySW1000::ControlGetMKS,func,confirmed,codeview,mintoposw1000.obj; ?ControlGetMKS@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x3587a,CMiniportTopologySW1000::ControlSetMKS,func,confirmed,codeview,mintoposw1000.obj; ?ControlSetMKS@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x358a6,CMiniportTopologySW1000::ControlGetPeak,func,confirmed,codeview,mintoposw1000.obj; ?ControlGetPeak@CMiniportTopologySW1000@@IAEJPAU_PCPROPERTY_REQUEST@@@Z
+0x358e2,CMiniportMidiUartSWXG::ConvertREFCLSID2Num,func,confirmed,codeview,minuart.obj; ?ConvertREFCLSID2Num@CMiniportMidiUartSWXG@@SGHABU_GUID@@@Z
+0x35924,CMiniportMidiUartSWXG::ConvertNum2REFCLSID,func,confirmed,codeview,minuart.obj; ?ConvertNum2REFCLSID@CMiniportMidiUartSWXG@@SGABU_GUID@@H@Z
+0x35934,CMiniportMidiUartSWXG::GetSubDeviceName,func,confirmed,codeview,minuart.obj; ?GetSubDeviceName@CMiniportMidiUartSWXG@@SGPAGH@Z
+0x35944,CMiniportMidiUartSWXG::GetDescription,func,confirmed,codeview,minuart.obj; ?GetDescription@CMiniportMidiUartSWXG@@UAGJPAPAUPCFILTER_DESCRIPTOR@@@Z
+0x35960,CMiniportMidiUartSWXG::CMiniportMidiUartSWXG,func,confirmed,codeview,minuart.obj; ??0CMiniportMidiUartSWXG@@QAE@PAUIUnknown@@ABU_GUID@@@Z
+0x3599e,CreateMiniportMidiUartSWXG,func,confirmed,codeview,minuart.obj; ?CreateMiniportMidiUartSWXG@@YGJPAPAUIUnknown@@ABU_GUID@@PAU1@W4_POOL_TYPE@@@Z
+0x359f0,CMiniportMidiUartSWXG::ProcessResources,func,confirmed,codeview,minuart.obj; ?ProcessResources@CMiniportMidiUartSWXG@@AAEJPAUIResourceList@@@Z
+0x35a4a,CMiniportMidiUartSWXG::NonDelegatingQueryInterface,func,confirmed,codeview,minuart.obj; ?NonDelegatingQueryInterface@CMiniportMidiUartSWXG@@UAGJABU_GUID@@PAPAX@Z
+0x35af8,CMiniportMidiUartSWXG::~CMiniportMidiUartSWXG,func,confirmed,codeview,minuart.obj; ??1CMiniportMidiUartSWXG@@UAE@XZ
+0x35b88,CMiniportMidiUartSWXG::Init,func,confirmed,codeview,minuart.obj; ?Init@CMiniportMidiUartSWXG@@UAGJPAUIUnknown@@PAUIResourceList@@PAUIPortMidi@@PAPAUIServiceGroup@@@Z
+0x35d66,CMiniportMidiUartSWXG::NewStream,func,confirmed,codeview,minuart.obj; ?NewStream@CMiniportMidiUartSWXG@@UAGJPAPAUIMiniportMidiStream@@PAUIUnknown@@W4_POOL_TYPE@@KEPATKSDATAFORMAT@@PAPAUIServiceGroup@@@Z
+0x35e38,CMiniportMidiUartSWXG::TestStreamCount,func,confirmed,codeview,minuart.obj; ?TestStreamCount@CMiniportMidiUartSWXG@@AAEEE@Z
+0x35e98,CMiniportMidiStreamUartSWXG::NonDelegatingQueryInterface,func,confirmed,codeview,minuart.obj; ?NonDelegatingQueryInterface@CMiniportMidiStreamUartSWXG@@UAGJABU_GUID@@PAPAX@Z
+0x35f20,CMiniportMidiStreamUartSWXG::SetFormat,func,confirmed,codeview,minuart.obj; ?SetFormat@CMiniportMidiStreamUartSWXG@@UAGJPATKSDATAFORMAT@@@Z
+0x35f26,CMiniportMidiStreamUartSWXG::~CMiniportMidiStreamUartSWXG,func,confirmed,codeview,minuart.obj; ??1CMiniportMidiStreamUartSWXG@@UAE@XZ
+0x35f72,CMiniportMidiStreamUartSWXG::Init,func,confirmed,codeview,minuart.obj; ?Init@CMiniportMidiStreamUartSWXG@@QAGJPAVCMiniportMidiUartSWXG@@PAEE@Z
+0x35f9e,CMiniportWaveYSWDS::ConvertREFCLSID2Num,func,confirmed,codeview,minwave.obj; ?ConvertREFCLSID2Num@CMiniportWaveYSWDS@@SGHABU_GUID@@@Z
+0x35fe0,CMiniportWaveYSWDS::ConvertNum2REFCLSID,func,confirmed,codeview,minwave.obj; ?ConvertNum2REFCLSID@CMiniportWaveYSWDS@@SGABU_GUID@@H@Z
+0x35ff0,CMiniportWaveYSWDS::GetSubDeviceName,func,confirmed,codeview,minwave.obj; ?GetSubDeviceName@CMiniportWaveYSWDS@@SGPAGH@Z
+0x36000,CMiniportWaveYSWDS::CMiniportWaveYSWDS,func,confirmed,codeview,minwave.obj; ??0CMiniportWaveYSWDS@@QAE@PAUIUnknown@@ABU_GUID@@@Z
+0x3606a,CreateMiniportWavePciYSWDS,func,confirmed,codeview,minwave.obj; ?CreateMiniportWavePciYSWDS@@YGJPAPAUIUnknown@@ABU_GUID@@PAU1@W4_POOL_TYPE@@@Z
+0x360be,CMiniportWaveYSWDS::ProcessResources,func,confirmed,codeview,minwave.obj; ?ProcessResources@CMiniportWaveYSWDS@@AAEJPAUIResourceList@@@Z
+0x361fe,CMiniportWaveYSWDS::ValidateFormat,func,confirmed,codeview,minwave.obj; ?ValidateFormat@CMiniportWaveYSWDS@@AAEJPATKSDATAFORMAT@@@Z
+0x362f4,CMiniportWaveYSWDS::NonDelegatingQueryInterface,func,confirmed,codeview,minwave.obj; ?NonDelegatingQueryInterface@CMiniportWaveYSWDS@@UAGJABU_GUID@@PAPAX@Z
+0x363a2,CMiniportWaveYSWDS::~CMiniportWaveYSWDS,func,confirmed,codeview,minwave.obj; ??1CMiniportWaveYSWDS@@UAE@XZ
+0x364b0,CMiniportWaveYSWDS::Init,func,confirmed,codeview,minwave.obj; ?Init@CMiniportWaveYSWDS@@UAGJPAUIUnknown@@PAUIResourceList@@PAUIPortWaveCyclic@@@Z
+0x365ac,CMiniportWaveYSWDS::GetDescription,func,confirmed,codeview,minwave.obj; ?GetDescription@CMiniportWaveYSWDS@@UAGJPAPAUPCFILTER_DESCRIPTOR@@@Z
+0x365cc,CMiniportWaveYSWDS::DataRangeIntersection,func,confirmed,codeview,minwave.obj; ?DataRangeIntersection@CMiniportWaveYSWDS@@UAGJKPATKSDATAFORMAT@@0KPAXPAK@Z
+0x3681c,CMiniportWaveYSWDS::NewStream,func,confirmed,codeview,minwave.obj; ?NewStream@CMiniportWaveYSWDS@@UAGJPAPAUIMiniportWaveCyclicStream@@PAUIUnknown@@W4_POOL_TYPE@@KEPATKSDATAFORMAT@@PAPAUIDmaChannel@@PAPAUIServiceGroup@@@Z
+0x36998,CMiniportWaveYSWDSStream::NonDelegatingQueryInterface,func,confirmed,codeview,minwave.obj; ?NonDelegatingQueryInterface@CMiniportWaveYSWDSStream@@UAGJABU_GUID@@PAPAX@Z
+0x36a46,CMiniportWaveYSWDSStream::~CMiniportWaveYSWDSStream,func,confirmed,codeview,minwave.obj; ??1CMiniportWaveYSWDSStream@@UAE@XZ
+0x36ac6,CMiniportWaveYSWDSStream::Init,func,confirmed,codeview,minwave.obj; ?Init@CMiniportWaveYSWDSStream@@QAEJPAVCMiniportWaveYSWDS@@KEPATKSDATAFORMAT@@PAUIDmaChannel@@@Z
+0x36b66,CMiniportWaveYSWDSStream::SetNotificationFreq,func,confirmed,codeview,minwave.obj; ?SetNotificationFreq@CMiniportWaveYSWDSStream@@UAGKKPAK@Z
+0x36c3c,CMiniportWaveYSWDSStream::SetFormat,func,confirmed,codeview,minwave.obj; ?SetFormat@CMiniportWaveYSWDSStream@@UAGJPATKSDATAFORMAT@@@Z
+0x36d0e,CPciUart::QueryOpenUART,func,confirmed,codeview,uart.obj; ?QueryOpenUART@CPciUart@@UAGEE@Z
+0x36d40,DriverEntry,func,confirmed,codeview,calls PcInitializeAdapterDriver with AddDevice; adapter.obj; _DriverEntry@8
