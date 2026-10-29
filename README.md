@@ -105,8 +105,7 @@ The details, including CI and how test builds are published, are in
 
 ## Supporting the project
 
-If the driver brings your card back to life, a tip helps with the project's hardware costs - getting hold of these
-legendary cards isn't cheap!
+If the driver brings your card back to life, a tip helps with the project's AI development costs. Your donation and contribution is very much appreciated!
 
 ## Legal
 
