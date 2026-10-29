@@ -1,6 +1,6 @@
 # Yamaha SW1000XG driver for 64-bit Windows 10/11
 
-[![Donate](https://img.shields.io/badge/Donate-Stripe-635BFF?logo=stripe&logoColor=white)](https://buy.stripe.com/9B66oI90I7M2doE52senS00)
+[![Donate](https://img.shields.io/badge/Donate-Stripe-635BFF?logo=stripe&logoColor=white)](https://buy.stripe.com/6oU8wQ7WEgiyacsbqQenS01)
 
 The **Yamaha SW1000XG** is a late-1990s PCI sound card. It combines a full XG
 wavetable synthesizer (the same engine as the MU100R) with six stereo wave
